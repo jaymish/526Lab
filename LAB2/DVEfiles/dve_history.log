@@ -1,0 +1,58 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/users9/jp581081/526LSP21/LAB2/vcdplus.vpd -design V1} {gui_open_db -file /home/users9/jp581081/526LSP21/LAB1/vcdplus.vpd -design V1}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1520
+gui_set_state_value -category Layout -key child_console_size_y -value 172
+gui_set_state_value -category Layout -key child_data_size_x -value 159
+gui_set_state_value -category Layout -key child_data_size_y -value 514
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 159
+gui_set_state_value -category Layout -key child_hier_size_y -value 514
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1205
+gui_set_state_value -category Layout -key child_source_size_y -value 509
+gui_set_state_value -category Layout -key child_wave_colname -value 101
+gui_set_state_value -category Layout -key child_wave_colvalue -value 100
+gui_set_state_value -category Layout -key child_wave_left -value 205
+gui_set_state_value -category Layout -key child_wave_right -value 1252
+gui_set_state_value -category Layout -key main_pos_x -value 8
+gui_set_state_value -category Layout -key main_pos_y -value 31
+gui_set_state_value -category Layout -key main_size_x -value 1528
+gui_set_state_value -category Layout -key main_size_y -value 816
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1467
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 340
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 20
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 51
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1482
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 495
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/users9/jp581081/526LSP21/LAB2/vcdplus.vpd -design V1
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 34 -fileIdFrom 0 -lto 29 -idxto 37 -fileIdTo 0 -selection {in1} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 38 -fileIdFrom 0 -lto 29 -idxto 41 -fileIdTo 0 -selection {in2} -selectionId 1 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 42 -fileIdFrom 0 -lto 29 -idxto 45 -fileIdTo 0 -selection {out} -selectionId 2 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 46 -fileIdFrom 0 -lto 29 -idxto 52 -fileIdTo 0 -selection {UUT.A1} -selectionId 3 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 53 -fileIdFrom 0 -lto 29 -idxto 59 -fileIdTo 0 -selection {UUT.A2} -selectionId 4 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 60 -fileIdFrom 0 -lto 29 -idxto 66 -fileIdTo 0 -selection {UUT.O1} -selectionId 5 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 29 -idxfrom 67 -fileIdFrom 0 -lto 29 -idxto 73 -fileIdTo 0 -selection {UUT.NT} -selectionId 6 -replace 0
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Source.1 { lab2_tb.in1 lab2_tb.in2 lab2_tb.out lab2_tb.UUT.A1 lab2_tb.UUT.A2 lab2_tb.UUT.O1 lab2_tb.UUT.NT } -insertionbar
+gui_wv_zoom_timerange -id  Wave.1 0 408
+gui_zoom -window Wave.1 -full
+gui_marker_create -id  Wave.1 M1 265
+gui_marker_move -id  Wave.1 C1 150
+gui_close_window -window TopLevel.2

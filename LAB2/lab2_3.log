@@ -1,0 +1,23 @@
+Command: /home/users9/jp581081/526LSP21/LAB2/./simv -l lab2_3.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP1_Full64; Runtime version Q-2020.03-SP1_Full64;  Feb  9 21:59 2021
+VCD+ Writer Q-2020.03-SP1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+                   0: in1=x, in2=x, | out=x | A1=x | A2=x | O1=x | NT=x
+                  15: in1=0, in2=0, | out=x | A1=x | A2=x | O1=x | NT=x
+                  18: in1=0, in2=0, | out=x | A1=0 | A2=x | O1=x | NT=1
+                  18: in1=0, in2=0, | out=x | A1=0 | A2=0 | O1=x | NT=1
+                  20: in1=0, in2=0, | out=x | A1=0 | A2=0 | O1=1 | NT=1
+                  27: in1=0, in2=0, | out=1 | A1=0 | A2=0 | O1=1 | NT=1
+                  30: in1=0, in2=1, | out=1 | A1=0 | A2=0 | O1=1 | NT=1
+                  45: in1=1, in2=0, | out=1 | A1=0 | A2=0 | O1=1 | NT=1
+                  48: in1=1, in2=0, | out=1 | A1=0 | A2=0 | O1=1 | NT=0
+                  50: in1=1, in2=0, | out=1 | A1=0 | A2=0 | O1=0 | NT=0
+                  60: in1=1, in2=1, | out=1 | A1=0 | A2=0 | O1=0 | NT=0
+                  63: in1=1, in2=1, | out=1 | A1=1 | A2=0 | O1=0 | NT=0
+$finish called from file "lab_tb.v", line 26.
+$finish at simulation time                  750
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 75000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Tue Feb  9 21:59:23 2021
