@@ -1,13 +1,14 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Tue Feb 9 23:28:35 2021
+# Saved on Thu Feb 11 19:26:32 2021
 # Designs open: 1
 #   V1: /home/users9/jp581081/526LSP21/LAB2/vcdplus.vpd
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: lab2_tb
-#   Group count = 1
-#   Group Group1 signal count = 7
+#   Group count = 2
+#   Group lab2_tb signal count = 10
+#   Group lab2_tb_1 signal count = 7
 # End_DVE_Session_Save_Info
 
 # DVE version: Q-2020.03-SP1_Full64
@@ -66,7 +67,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1527 815}}
+gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1525 813}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -107,23 +108,23 @@ gui_hide_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 159]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 157]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 159
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 157
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 158} {height 514} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 159]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 156} {height 514} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 157]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 159
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 157
 gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 514
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 158} {height 514} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
-set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 172]
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 156} {height 514} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 170]
 gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1476
-gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 172
+gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 170
 gui_set_window_pref_key -window ${Console.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1519} {height 171} {dock_state bottom} {dock_on_new_line true}}
+gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1517} {height 169} {dock_state bottom} {dock_on_new_line true}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -170,7 +171,7 @@ if { ![gui_is_db_opened -db {/home/users9/jp581081/526LSP21/LAB2/vcdplus.vpd}] }
 	gui_open_db -design V1 -file /home/users9/jp581081/526LSP21/LAB2/vcdplus.vpd -nosource
 }
 gui_set_precision 100ps
-gui_set_time_units 100ps
+gui_set_time_units 1ns
 #</Database>
 
 # DVE Global setting session: 
@@ -189,11 +190,17 @@ gui_load_child_values {lab2_tb}
 gui_load_child_values {lab2_tb.UUT}
 
 
-set _session_group_1 Group1
+set _session_group_1 lab2_tb
 gui_sg_create "$_session_group_1"
-set Group1 "$_session_group_1"
+set lab2_tb "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { lab2_tb.in1 lab2_tb.in2 lab2_tb.out lab2_tb.UUT.A1 lab2_tb.UUT.A2 lab2_tb.UUT.O1 lab2_tb.UUT.NT }
+gui_sg_addsignal -group "$_session_group_1" { lab2_tb.in1 lab2_tb.in2 lab2_tb.out lab2_tb.in1 lab2_tb.in2 lab2_tb.out lab2_tb.UUT.A1 lab2_tb.UUT.A2 lab2_tb.UUT.O1 lab2_tb.UUT.NT }
+
+set _session_group_2 lab2_tb_1
+gui_sg_create "$_session_group_2"
+set lab2_tb_1 "$_session_group_2"
+
+gui_sg_addsignal -group "$_session_group_2" { lab2_tb.in1 lab2_tb.in2 lab2_tb.out lab2_tb.UUT.A1 lab2_tb.UUT.A2 lab2_tb.UUT.O1 lab2_tb.UUT.NT }
 
 # Global: Highlighting
 
@@ -203,7 +210,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 150
+gui_set_time -C1_only 15
 
 
 
