@@ -3,16 +3,16 @@ Chronologic VCS simulator copyright 1991-2020
 Contains Synopsys proprietary information.
 Compiler version Q-2020.03-SP1_Full64; Runtime version Q-2020.03-SP1_Full64;  Feb  9 21:19 2021
 VCD+ Writer Q-2020.03-SP1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
-                   0: in1=x, in2=x, | out=x | A1=x | A2=x | O1=z | NT=x
-                  15: in1=0, in2=0, | out=x | A1=x | A2=x | O1=z | NT=x
-                  17: in1=0, in2=0, | out=x | A1=x | A2=x | O1=z | NT=1
-                  18: in1=0, in2=0, | out=x | A1=0 | A2=0 | O1=z | NT=1
-                  26: in1=0, in2=0, | out=1 | A1=0 | A2=0 | O1=z | NT=1
-                  30: in1=0, in2=1, | out=1 | A1=0 | A2=0 | O1=z | NT=1
-                  45: in1=1, in2=0, | out=1 | A1=0 | A2=0 | O1=z | NT=1
-                  47: in1=1, in2=0, | out=1 | A1=0 | A2=0 | O1=z | NT=0
-                  60: in1=1, in2=1, | out=1 | A1=0 | A2=0 | O1=z | NT=0
-                  63: in1=1, in2=1, | out=1 | A1=1 | A2=0 | O1=z | NT=0
+                   0: in1=x, in2=x, | out=x | A1=x | A2=x | NT=x
+                  15: in1=0, in2=0, | out=x | A1=x | A2=x | NT=x
+                  17: in1=0, in2=0, | out=x | A1=x | A2=x | NT=1
+                  18: in1=0, in2=0, | out=x | A1=0 | A2=0 | NT=1
+                  26: in1=0, in2=0, | out=1 | A1=0 | A2=0 | NT=1
+                  30: in1=0, in2=1, | out=1 | A1=0 | A2=0 | NT=1
+                  45: in1=1, in2=0, | out=1 | A1=0 | A2=0 | NT=1
+                  47: in1=1, in2=0, | out=1 | A1=0 | A2=0 | NT=0
+                  60: in1=1, in2=1, | out=1 | A1=0 | A2=0 | NT=0
+                  63: in1=1, in2=1, | out=1 | A1=1 | A2=0 | NT=0
 $finish called from file "lab_tb.v", line 26.
 $finish at simulation time                  750
            V C S   S i m u l a t i o n   R e p o r t 

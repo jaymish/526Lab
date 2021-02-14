@@ -13,7 +13,7 @@
 **************************************************************************************************/`timescale 1 ns / 1 ns
 
 //defination of constant
-`define MONITOR_STR_1 "%d: in1=%b, in2=%b, | out=%b | A1=%b | A2=%b | NT=%b" 
+`define MONITOR_STR_1 "%d: in1=%b, in2=%b, | out=%b | A1=%b | A2=%b | O1=%b | NT=%b" 
 
 
 module lab2_tb();
@@ -26,7 +26,7 @@ module lab2_tb();
 
 	initial begin
 //$monitorb - displays the values of all objects in its list whenever any one of them changes.
-		$monitor(`MONITOR_STR_1, $time, in1,in2,out,UUT.A1,UUT.A2,UUT.NT);
+		$monitor(`MONITOR_STR_1, $time, in1,in2,out,UUT.A1,UUT.A2,UUT.O1,UUT.NT);
 		//$time - simulation time
 	end
 
