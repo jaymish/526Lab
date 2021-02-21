@@ -1,14 +1,13 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Sat Feb 13 20:10:18 2021
+# Saved on Wed Feb 17 20:19:14 2021
 # Designs open: 1
 #   V1: /home/users9/jp581081/526LSP21/LAB3/vcdplus.vpd
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: lab3_tb
-#   Group count = 2
-#   Group Group1 signal count = 4
-#   Group Group2 signal count = 2
+#   Group count = 1
+#   Group Group1 signal count = 5
 # End_DVE_Session_Save_Info
 
 # DVE version: Q-2020.03-SP1_Full64
@@ -67,7 +66,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1519 807}}
+gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1515 803}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -108,23 +107,23 @@ gui_hide_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 152]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 148]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 152
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 148
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 151} {height 513} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 152]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 147} {height 497} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 148]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 152
-gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 514
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 148
+gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 497
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 151} {height 513} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
-set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 165]
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 147} {height 497} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 177]
 gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1476
-gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 165
+gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 177
 gui_set_window_pref_key -window ${Console.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1511} {height 164} {dock_state bottom} {dock_on_new_line true}}
+gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1507} {height 176} {dock_state bottom} {dock_on_new_line true}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -193,13 +192,7 @@ set _session_group_1 Group1
 gui_sg_create "$_session_group_1"
 set Group1 "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { lab3_tb.s0 lab3_tb.s1 lab3_tb.r0 lab3_tb.r1 }
-
-set _session_group_2 Group2
-gui_sg_create "$_session_group_2"
-set Group2 "$_session_group_2"
-
-gui_sg_addsignal -group "$_session_group_2" { lab3_tb.Q lab3_tb.Qnot }
+gui_sg_addsignal -group "$_session_group_1" { lab3_tb.clock lab3_tb.data lab3_tb.clear lab3_tb.Q lab3_tb.Qnot }
 
 # Global: Highlighting
 
@@ -209,7 +202,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 200
+gui_set_time -C1_only 0
 
 
 
@@ -243,7 +236,7 @@ gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linka
 gui_list_set_filter -id ${Data.1} -text {*}
 gui_list_show_data -id ${Data.1} {lab3_tb}
 gui_show_window -window ${Data.1}
-catch { gui_list_select -id ${Data.1} {lab3_tb.s0 lab3_tb.s1 lab3_tb.r0 lab3_tb.r1 lab3_tb.Q lab3_tb.Qnot }}
+catch { gui_list_select -id ${Data.1} {lab3_tb.clock lab3_tb.data lab3_tb.clear lab3_tb.Q lab3_tb.Qnot }}
 gui_view_scroll -id ${Data.1} -vertical -set 0
 gui_view_scroll -id ${Data.1} -horizontal -set 0
 gui_view_scroll -id ${Hier.1} -vertical -set 0
@@ -252,14 +245,15 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 # Source 'Source.1'
 gui_src_value_annotate -id ${Source.1} -switch false
 gui_set_env TOGGLE::VALUEANNOTATE 0
-gui_open_source -id ${Source.1}  -replace -active lab3_tb /home/users9/jp581081/526LSP21/LAB3/lab3_tb.v
-gui_view_scroll -id ${Source.1} -vertical -set 15
+gui_open_source -id ${Source.1}  -replace -active lab3_tb /home/users9/jp581081/526LSP21/LAB3/lab3_1_tb.v
+gui_view_scroll -id ${Source.1} -vertical -set 0
 gui_src_set_reusable -id ${Source.1}
 # Restore toplevel window zorder
 # The toplevel window could be closed if it has no view/pane
 if {[gui_exist_window -window ${TopLevel.1}]} {
 	gui_set_active_window -window ${TopLevel.1}
 	gui_set_active_window -window ${Source.1}
+	gui_set_active_window -window ${DLPane.1}
 }
 #</Session>
 

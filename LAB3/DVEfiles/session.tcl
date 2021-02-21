@@ -1,13 +1,13 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Sat Feb 13 22:28:07 2021
+# Saved on Sat Feb 20 16:03:47 2021
 # Designs open: 1
 #   V1: /home/users9/jp581081/526LSP21/LAB3/vcdplus.vpd
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: lab3_tb
 #   Group count = 1
-#   Group Group1 signal count = 6
+#   Group Group1 signal count = 5
 # End_DVE_Session_Save_Info
 
 # DVE version: Q-2020.03-SP1_Full64
@@ -66,7 +66,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1517 805}}
+gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1542 870}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -107,23 +107,23 @@ gui_hide_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 150]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 146]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 150
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 146
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 149} {height 497} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 150]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 145} {height 566} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 146]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 150
-gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 497
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 146
+gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 566
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 149} {height 497} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
-set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 179]
-gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 271
-gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 179
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 145} {height 566} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 175]
+gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1476
+gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 175
 gui_set_window_pref_key -window ${Console.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1509} {height 178} {dock_state bottom} {dock_on_new_line true}}
+gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1534} {height 174} {dock_state bottom} {dock_on_new_line true}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -192,7 +192,7 @@ set _session_group_1 Group1
 gui_sg_create "$_session_group_1"
 set Group1 "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { lab3_tb.clock lab3_tb.data lab3_tb.clear lab3_tb.run_clk lab3_tb.Q lab3_tb.Qnot }
+gui_sg_addsignal -group "$_session_group_1" { lab3_tb.clock lab3_tb.data lab3_tb.clear lab3_tb.Q lab3_tb.Qnot }
 
 # Global: Highlighting
 
@@ -202,7 +202,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 120
+gui_set_time -C1_only 180
 
 
 
@@ -236,7 +236,7 @@ gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linka
 gui_list_set_filter -id ${Data.1} -text {*}
 gui_list_show_data -id ${Data.1} {lab3_tb}
 gui_show_window -window ${Data.1}
-catch { gui_list_select -id ${Data.1} {lab3_tb.clock lab3_tb.data lab3_tb.clear lab3_tb.run_clk lab3_tb.Q lab3_tb.Qnot }}
+catch { gui_list_select -id ${Data.1} {lab3_tb.clock lab3_tb.data lab3_tb.clear lab3_tb.Q lab3_tb.Qnot }}
 gui_view_scroll -id ${Data.1} -vertical -set 0
 gui_view_scroll -id ${Data.1} -horizontal -set 0
 gui_view_scroll -id ${Hier.1} -vertical -set 0
@@ -246,7 +246,7 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 gui_src_value_annotate -id ${Source.1} -switch false
 gui_set_env TOGGLE::VALUEANNOTATE 0
 gui_open_source -id ${Source.1}  -replace -active lab3_tb /home/users9/jp581081/526LSP21/LAB3/lab3_1_tb.v
-gui_view_scroll -id ${Source.1} -vertical -set 15
+gui_view_scroll -id ${Source.1} -vertical -set 210
 gui_src_set_reusable -id ${Source.1}
 # Restore toplevel window zorder
 # The toplevel window could be closed if it has no view/pane

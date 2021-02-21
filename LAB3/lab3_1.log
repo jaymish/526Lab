@@ -1,0 +1,52 @@
+Command: /home/users9/jp581081/526LSP21/LAB3/./simv -l lab3_1.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP1_Full64; Runtime version Q-2020.03-SP1_Full64;  Feb 20 00:49 2021
+VCD+ Writer Q-2020.03-SP1_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+                   0: clock=0, data=x, clear=x | Q=x | Qnot=x 
+                   5: clock=0, data=1, clear=0 | Q=x | Qnot=x 
+                  18: clock=0, data=1, clear=0 | Q=x | Qnot=1 
+                  20: clock=1, data=1, clear=0 | Q=x | Qnot=1 
+                  23: clock=1, data=1, clear=0 | Q=0 | Qnot=1 
+                  40: clock=0, data=1, clear=0 | Q=0 | Qnot=1 
+                  55: clock=0, data=0, clear=0 | Q=0 | Qnot=1 
+                  60: clock=1, data=0, clear=0 | Q=0 | Qnot=1 
+                  80: clock=0, data=0, clear=0 | Q=0 | Qnot=1 
+                 100: clock=1, data=0, clear=0 | Q=0 | Qnot=1 
+Display:At                  105 the value of clock is 1,value of data is 1,value of clear is 1 and we get Q=0 and Qnot=1
+                 105: clock=1, data=1, clear=1 | Q=0 | Qnot=1 
+                 120: clock=0, data=1, clear=1 | Q=0 | Qnot=1 
+                 140: clock=1, data=1, clear=1 | Q=0 | Qnot=1 
+                 155: clock=1, data=0, clear=1 | Q=0 | Qnot=1 
+                 158: clock=1, data=0, clear=1 | Q=1 | Qnot=1 
+                 160: clock=0, data=0, clear=1 | Q=1 | Qnot=1 
+                 164: clock=0, data=0, clear=1 | Q=1 | Qnot=0 
+                 180: clock=1, data=0, clear=1 | Q=1 | Qnot=0 
+                 199: clock=1, data=0, clear=1 | Q=1 | Qnot=1 
+                 200: clock=0, data=0, clear=1 | Q=1 | Qnot=1 
+                 204: clock=0, data=0, clear=1 | Q=0 | Qnot=1 
+                 205: clock=0, data=1, clear=1 | Q=0 | Qnot=1 
+                 220: clock=1, data=1, clear=1 | Q=0 | Qnot=1 
+                 238: clock=1, data=1, clear=1 | Q=1 | Qnot=1 
+                 240: clock=0, data=1, clear=1 | Q=1 | Qnot=1 
+                 244: clock=0, data=1, clear=1 | Q=1 | Qnot=0 
+Write:At                  255 the value of clock is 0,value of data is 0,value of clear is 1 and we get Q=1 and Qnot=0                 255: clock=0, data=0, clear=1 | Q=1 | Qnot=0 
+                 260: clock=1, data=0, clear=1 | Q=1 | Qnot=0 
+                 279: clock=1, data=0, clear=1 | Q=1 | Qnot=1 
+                 280: clock=0, data=0, clear=1 | Q=1 | Qnot=1 
+                 284: clock=0, data=0, clear=1 | Q=0 | Qnot=1 
+                 300: clock=1, data=0, clear=1 | Q=0 | Qnot=1 
+                 305: clock=1, data=1, clear=1 | Q=0 | Qnot=1 
+Strobe:At                  305 the value of clock is 1,value of data is 1,value of clear is 1 and we get Q=0 and Qnot=1
+                 320: clock=0, data=1, clear=1 | Q=0 | Qnot=1 
+                 340: clock=1, data=1, clear=1 | Q=0 | Qnot=1 
+                 355: clock=1, data=0, clear=1 | Q=0 | Qnot=1 
+                 358: clock=1, data=0, clear=1 | Q=1 | Qnot=1 
+                 360: clock=0, data=0, clear=1 | Q=1 | Qnot=1 
+                 364: clock=0, data=0, clear=1 | Q=1 | Qnot=0 
+$finish called from file "lab3_1_tb.v", line 47.
+$finish at simulation time                 3650
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 365000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Sat Feb 20 00:49:45 2021

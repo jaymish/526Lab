@@ -31,7 +31,7 @@
 lab3_1.v
 lab3_1_tb.v
 37
-XDG_SESSION_ID=23253
+XDG_SESSION_ID=24574
 XDG_RUNTIME_DIR=/run/user/1338419589
 XDG_DATA_DIRS=/home/users9/jp581081/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
 VMR_MODE_FLAG=64
@@ -47,9 +47,9 @@ TOOL_HOME=/opt/synopsys/vcs/Q-2020.03-SP1/linux64
 SYNOPSYS_LC_ROOT=/opt/synopsys/lc/O-2018.06-SP1
 SYNOPSYS=/opt/synopsys
 STROOT=/opt/synopsys/icc/Q-2019.12-SP5
-SSH_TTY=/dev/pts/0
-SSH_CONNECTION=172.24.203.18 52595 130.166.68.130 22
-SSH_CLIENT=172.24.203.18 52595 22
+SSH_TTY=/dev/pts/3
+SSH_CONNECTION=172.24.203.18 59975 130.166.68.130 22
+SSH_CLIENT=172.24.203.18 59975 22
 SELINUX_USE_CURRENT_RANGE=
 SELINUX_ROLE_REQUESTED=
 SELINUX_LEVEL_REQUESTED=
@@ -70,14 +70,14 @@ CDSDOC_PROJECT=/opt/cadence/cdsdoc_list/
 A__z="*SHLVL
 0
 4
-1613276248 lab3.v
-1613277673 lab3_1_tb.v
-1613263778 lab3_1.v
+1613809150 lab3.v
+1613810860 lab3_1_tb.v
+1613809186 lab3_1.v
 1590808341 /opt/synopsys/vcs/Q-2020.03-SP1/linux64/lib/vcsdp.tab
 4
 1590809634 /opt/synopsys/vcs/Q-2020.03-SP1/linux64/lib/libvirsim.so
 1590809310 /opt/synopsys/vcs/Q-2020.03-SP1/linux64/lib/liberrorinf.so
 1590809251 /opt/synopsys/vcs/Q-2020.03-SP1/linux64/lib/libsnpsmalloc.so
 1590809285 /opt/synopsys/vcs/Q-2020.03-SP1/linux64/lib/libvfs.so
-1613282374 simv.daidir
+1613862921 simv.daidir
 -1 partitionlib
