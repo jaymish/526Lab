@@ -1,0 +1,34 @@
+Command: /home/users9/jp581081/526LSP21/LAB4/./simv -l reg.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Feb 27 17:06 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0: CLK=0, RST=x, ENA=x, DATA=xxxxxxxx | R=xxxxxxxx 
+                  50: CLK=1, RST=0, ENA=1, DATA=00000001 | R=xxxxxxxx 
+                  68: CLK=1, RST=0, ENA=1, DATA=00000001 | R=00000000 
+                 100: CLK=0, RST=1, ENA=0, DATA=00000001 | R=00000000 
+                 150: CLK=1, RST=1, ENA=1, DATA=00000001 | R=00000000 
+                 178: CLK=1, RST=1, ENA=1, DATA=00000001 | R=00000001 
+                 200: CLK=0, RST=1, ENA=1, DATA=10000001 | R=00000001 
+                 250: CLK=1, RST=1, ENA=1, DATA=10000001 | R=00000001 
+                 268: CLK=1, RST=1, ENA=1, DATA=10000001 | R=10000001 
+                 300: CLK=0, RST=1, ENA=0, DATA=10000001 | R=10000001 
+                 350: CLK=1, RST=1, ENA=0, DATA=10001111 | R=10000001 
+                 400: CLK=0, RST=1, ENA=1, DATA=10001111 | R=10000001 
+                 450: CLK=1, RST=1, ENA=1, DATA=10001111 | R=10000001 
+                 468: CLK=1, RST=1, ENA=1, DATA=10001111 | R=10001111 
+                 500: CLK=0, RST=0, ENA=1, DATA=10001111 | R=10001111 
+                 518: CLK=0, RST=0, ENA=1, DATA=10001111 | R=00000000 
+                 550: CLK=1, RST=1, ENA=1, DATA=10001111 | R=00000000 
+                 600: CLK=0, RST=1, ENA=1, DATA=01010101 | R=00000000 
+                 650: CLK=1, RST=1, ENA=1, DATA=01010101 | R=00000000 
+                 668: CLK=1, RST=1, ENA=1, DATA=01010101 | R=01010101 
+                 700: CLK=0, RST=1, ENA=1, DATA=01010101 | R=01010101 
+                 750: CLK=1, RST=1, ENA=0, DATA=01010101 | R=01010101 
+                 800: CLK=0, RST=1, ENA=0, DATA=01010101 | R=01010101 
+$finish called from file "reg_tb.v", line 51.
+$finish at simulation time                 8500
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 850000 ps
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Sat Feb 27 17:06:58 2021

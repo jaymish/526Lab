@@ -1,11 +1,11 @@
 /**************************************************************************************************
 ***												***
-*** EE 526 L Experiment #3					Jaymish patel, Spring, 2021	***
+*** EE 526 L Experiment #4					Jaymish patel, Spring, 2021	***
 ***												***
-*** Experiment #3  model an edge triggered flip-flop						***
+*** Experiment #4  model an 8-bit register  							***
 ***												***
 ***************************************************************************************************
-***  Filename: lab3.v				     	      Created by Jaymish patel, 2/18/21 ***
+***  Filename: sr.v				     	      Created by Jaymish patel, 2/18/21 ***
 ***    --- revision history, if any, goes here ---						***
 ***************************************************************************************************
 *** This module models the SR latch                                      			***
