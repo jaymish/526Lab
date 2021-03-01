@@ -1,3 +1,3 @@
-vcs -debug -full64 lab3_1.v lab3_1_tb.v
-simv
-dve -full64
+vcs -debug -full64 lab3_1.v lab3_1_tb.v;
+simv;
+dve -full64;

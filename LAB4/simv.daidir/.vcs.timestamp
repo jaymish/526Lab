@@ -31,7 +31,7 @@ reg_tb.v
 register.v
 38
 sysc_uni_pwd=/home/users9/jp581081/526LSP21/LAB4
-XDG_SESSION_ID=54
+XDG_SESSION_ID=586
 XDG_RUNTIME_DIR=/run/user/1338419589
 XDG_DATA_DIRS=/home/users9/jp581081/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
 VMR_MODE_FLAG=64
@@ -48,8 +48,8 @@ SYNOPSYS_LC_ROOT=/opt/synopsys/lc/O-2018.06-SP1
 SYNOPSYS=/opt/synopsys
 STROOT=/opt/synopsys/icc/O-2018.06-SP1
 SSH_TTY=/dev/pts/1
-SSH_CONNECTION=172.24.203.18 51587 130.166.68.150 22
-SSH_CLIENT=172.24.203.18 51587 22
+SSH_CONNECTION=172.24.203.18 51202 130.166.68.150 22
+SSH_CLIENT=172.24.203.18 51202 22
 SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
 SELINUX_USE_CURRENT_RANGE=
 SELINUX_ROLE_REQUESTED=
@@ -70,11 +70,11 @@ CDSDOC_PROJECT=/opt/cadence/cdsdoc_list/
 A__z="*SHLVL
 0
 6
-1614301109 mux2.v
-1614298990 sr.v
-1614299043 dff.v
-1614303807 reg_tb.v
-1614302348 register.v
+1614469183 mux2.v
+1614469253 sr.v
+1614469237 dff.v
+1614472931 reg_tb.v
+1614474401 register.v
 1534397779 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/vcsdp.tab
 5
 0 
@@ -82,4 +82,4 @@ A__z="*SHLVL
 1534400011 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/liberrorinf.so
 1534399858 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/libsnpsmalloc.so
 1534401039 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/libvfs.so
-1614303826 simv.daidir
+1614474404 simv.daidir

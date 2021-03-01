@@ -1,26 +1,26 @@
 {
-    "mux2": [
-        "mux2",
-        "i3rNP",
-        "module",
-        1
-    ],
     "dff": [
         "dff",
         "IWW0i",
         "module",
         2
     ],
+    "mux2": [
+        "mux2",
+        "i3rNP",
+        "module",
+        1
+    ],
+    "reg_tb": [
+        "reg_tb",
+        "eLAp0",
+        "module",
+        5
+    ],
     "...MASTER...": [
         "SIM",
         "amcQw",
         "module",
         4
-    ],
-    "lab3_tb": [
-        "lab3_tb",
-        "TesMA",
-        "module",
-        3
     ]
 }
