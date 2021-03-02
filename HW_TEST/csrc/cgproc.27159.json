@@ -1,0 +1,112 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.43676590919494629,
+                0.048548000000000001,
+                0.056315999999999998,
+                207076,
+                220112,
+                1614656436.8019719,
+                1344422676351640
+            ],
+            "end_perf": [
+                0.46989607810974121,
+                0.053657999999999997,
+                0.059619999999999999,
+                208892,
+                220112,
+                1344422792701220,
+                0,
+                0
+            ],
+            "child_modules": {
+                "reg_tb": 1
+            },
+            "nMops": 0,
+            "nQuads": 0,
+            "nRouts": 5
+        },
+        "reg_tb": {
+            "start_perf": [
+                0.47023797035217285,
+                0.053982000000000002,
+                0.059619999999999999,
+                208892,
+                220112,
+                1614656436.835444,
+                1344422793841480
+            ],
+            "end_perf": [
+                0.53113293647766113,
+                0.062815999999999997,
+                0.067881999999999998,
+                212716,
+                220112,
+                1344423007386304,
+                8589934593,
+                0
+            ],
+            "Compiled": "Yes",
+            "child_modules": {},
+            "nRouts": 13,
+            "Compiled Times": 6,
+            "nMops": 63,
+            "nQuads": 54
+        }
+    },
+    "CompUnits": {
+        "eLAp0_d": {
+            "mod": "reg_tb",
+            "archive": "archive.48/_27159_archive_1.a",
+            "out": "eLAp0_d.o",
+            "bytes": 7862,
+            "checksum": 0,
+            "text": 799,
+            "mode": 4
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.48/_27159_archive_1.a",
+            "objects": [
+                [
+                    "eLAp0_d.o",
+                    7862
+                ],
+                [
+                    "amcQwB.o",
+                    97976
+                ]
+            ],
+            "size": 105838
+        }
+    ],
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_utime_sec": 0.068765999999999994,
+            "ru_stime_sec": 0.076856999999999995,
+            "ru_nivcsw": 45,
+            "ru_minflt": 23574,
+            "ru_maxrss_kb": 70276,
+            "ru_majflt": 0,
+            "ru_nvcsw": 280
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.038429999999999999,
+            "ru_stime_sec": 0.026535,
+            "ru_nivcsw": 8,
+            "ru_minflt": 6914,
+            "ru_maxrss_kb": 21600,
+            "ru_majflt": 0,
+            "ru_nvcsw": 23
+        },
+        "peak_mem_kb": 220112,
+        "cpu_cycles_end": 1344423279867758
+    }
+}
