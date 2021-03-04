@@ -1,0 +1,1 @@
+vcs -debug -full64 top_counter.v counter_tb.v
