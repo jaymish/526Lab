@@ -14,7 +14,7 @@ module tb_TOP_Counter();
   
   initial
     $monitorb("%d CLK = %b ENA = %b RST = %b LOAD= %b DATA= %b | DEC_DATA=%d | CNT= %b | DEC_CNT=%d",$time, CLK, ENA, RST, LOAD, DATA, DATA, CNT, CNT);
-
+  //$monitorb - displays the values of all objects in its list whenever any one of them changes.
   initial begin
     $vcdpluson;
     // Demonstrates Asynchronous Reset
