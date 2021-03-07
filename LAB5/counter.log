@@ -1,0 +1,116 @@
+Command: /home/users9/jp581081/526LSP21/LAB5/./simv -l counter.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Mar  6 17:20 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0 CLK = 0 ENA = x RST = x LOAD= x DATA= xxxxxxxx | DEC_DATA=  x | CNT= xxxxxxxx | DEC_CNT=  x
+
+ Demonstrates an asynchronous reset
+
+                  10 CLK = 1 ENA = x RST = 0 LOAD= x DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000000 | DEC_CNT=  0
+                  20 CLK = 0 ENA = x RST = 0 LOAD= x DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000000 | DEC_CNT=  0
+
+ The counter initiates incrementing after reset is released
+
+                  30 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000000 | DEC_CNT=  0
+                  40 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000000 | DEC_CNT=  0
+                  50 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000001 | DEC_CNT=  1
+                  60 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000001 | DEC_CNT=  1
+                  70 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000010 | DEC_CNT=  2
+                  80 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000010 | DEC_CNT=  2
+                  90 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000011 | DEC_CNT=  3
+                 100 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000011 | DEC_CNT=  3
+                 110 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000100 | DEC_CNT=  4
+                 120 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000100 | DEC_CNT=  4
+                 130 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000101 | DEC_CNT=  5
+                 140 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000101 | DEC_CNT=  5
+                 150 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000110 | DEC_CNT=  6
+                 160 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000110 | DEC_CNT=  6
+                 170 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000111 | DEC_CNT=  7
+                 180 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00000111 | DEC_CNT=  7
+                 190 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00001000 | DEC_CNT=  8
+                 200 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= xxxxxxxx | DEC_DATA=  x | CNT= 00001000 | DEC_CNT=  8
+
+ After it reaches a count of 8, parallel load 250 decimal is introduced
+
+                 210 CLK = 1 ENA = 1 RST = 1 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 11111010 | DEC_CNT=250
+                 220 CLK = 0 ENA = 1 RST = 1 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 11111010 | DEC_CNT=250
+
+ It will count from 250 until the counter rolls over (i.e. returns to zero) and then starts counting back up
+
+                 230 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111011 | DEC_CNT=251
+                 240 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111011 | DEC_CNT=251
+                 250 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111100 | DEC_CNT=252
+                 260 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111100 | DEC_CNT=252
+                 270 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111101 | DEC_CNT=253
+                 280 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111101 | DEC_CNT=253
+                 290 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111110 | DEC_CNT=254
+                 300 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111110 | DEC_CNT=254
+                 310 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111111 | DEC_CNT=255
+                 320 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 11111111 | DEC_CNT=255
+                 330 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 340 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 350 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 00000001 | DEC_CNT=  1
+                 360 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 11111010 | DEC_DATA=250 | CNT= 00000001 | DEC_CNT=  1
+
+ Reset overrides load
+
+                 370 CLK = 1 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 380 CLK = 0 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 390 CLK = 1 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+
+ Parellel Load
+                 400 CLK = 0 ENA = 1 RST = 1 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 410 CLK = 1 ENA = 1 RST = 1 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 420 CLK = 0 ENA = 1 RST = 1 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 430 CLK = 1 ENA = 1 RST = 1 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 11111010 | DEC_CNT=250
+
+ Counter reset
+                 440 CLK = 0 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 450 CLK = 1 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 460 CLK = 0 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 470 CLK = 1 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+                 480 CLK = 0 ENA = 1 RST = 0 LOAD= 1 DATA= 11111010 | DEC_DATA=250 | CNT= 00000000 | DEC_CNT=  0
+
+ Reset overrides enable
+
+                 490 CLK = 1 ENA = 1 RST = 0 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 500 CLK = 0 ENA = 1 RST = 0 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 510 CLK = 1 ENA = 1 RST = 0 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 520 CLK = 0 ENA = 1 RST = 0 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 530 CLK = 1 ENA = 1 RST = 0 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 540 CLK = 0 ENA = 1 RST = 0 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 550 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 560 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000000 | DEC_CNT=  0
+                 570 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000001 | DEC_CNT=  1
+                 580 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000001 | DEC_CNT=  1
+                 590 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000010 | DEC_CNT=  2
+                 600 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000010 | DEC_CNT=  2
+                 610 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000011 | DEC_CNT=  3
+                 620 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000011 | DEC_CNT=  3
+                 630 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000100 | DEC_CNT=  4
+                 640 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000100 | DEC_CNT=  4
+                 650 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000101 | DEC_CNT=  5
+                 660 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000101 | DEC_CNT=  5
+                 670 CLK = 1 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000110 | DEC_CNT=  6
+                 680 CLK = 0 ENA = 1 RST = 1 LOAD= 0 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000110 | DEC_CNT=  6
+
+ Enable low for Load
+
+                 690 CLK = 1 ENA = 0 RST = 1 LOAD= 1 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000110 | DEC_CNT=  6
+                 700 CLK = 0 ENA = 0 RST = 1 LOAD= 1 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000110 | DEC_CNT=  6
+                 710 CLK = 1 ENA = 0 RST = 1 LOAD= 1 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000110 | DEC_CNT=  6
+                 720 CLK = 0 ENA = 0 RST = 1 LOAD= 1 DATA= 00001010 | DEC_DATA= 10 | CNT= 00000110 | DEC_CNT=  6
+
+ Enable low for increment 
+
+                 730 CLK = 1 ENA = 0 RST = 1 LOAD= 0 DATA= 11001000 | DEC_DATA=200 | CNT= 00000110 | DEC_CNT=  6
+                 740 CLK = 0 ENA = 0 RST = 1 LOAD= 0 DATA= 11001000 | DEC_DATA=200 | CNT= 00000110 | DEC_CNT=  6
+                 750 CLK = 1 ENA = 0 RST = 1 LOAD= 0 DATA= 11001000 | DEC_DATA=200 | CNT= 00000110 | DEC_CNT=  6
+                 760 CLK = 0 ENA = 0 RST = 1 LOAD= 0 DATA= 11001000 | DEC_DATA=200 | CNT= 00000110 | DEC_CNT=  6
+$finish called from file "counter_tb.v", line 51.
+$finish at simulation time                  770
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 770 ns
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Sat Mar  6 17:20:25 2021

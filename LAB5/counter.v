@@ -1,4 +1,4 @@
-`timescale 1 ns / 1ns
+  `timescale 1 ns / 1ns
 
 module counter(CNT,CLK, RST, ENA, LOAD, DATA );
   output reg [7:0] CNT;
