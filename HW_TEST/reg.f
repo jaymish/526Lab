@@ -1,1 +1,1 @@
-vcs -debug -full64 2_tb.v
+vcs -debug -full64 fun.v fun_tb.v

@@ -1,9 +1,9 @@
 {
-    "reg_tb": [
-        "reg_tb",
-        "eLAp0",
+    "majority_tb": [
+        "majority_tb",
+        "M8v38",
         "module",
-        3
+        2
     ],
     "...MASTER...": [
         "SIM",
