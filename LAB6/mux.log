@@ -1,0 +1,49 @@
+Command: /home/users9/jp581081/526LSP21/LAB6/./simv -l mux.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Mar 27 16:11 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+
+ 			      Mux with width=1,	     Mux with width=4,		 Mux with width=5, 		Mux with width=6
+                   0:SEL=x || A=x B=x | OUT=x || A=xxxx B=xxxx | OUT=xxxx || A=xxxxx B=xxxxx | OUT=xxxxx || A=xxxxxx B=xxxxxx | OUT=xxxxxx 
+
+                  10:SEL=1 || A=1 B=1 | OUT=1 || A=0101 B=0101 | OUT=0101 || A=10101 B=10101 | OUT=10101 || A=010101 B=010101 | OUT=010101 
+
+                  20:SEL=0 || A=1 B=1 | OUT=1 || A=0101 B=0101 | OUT=0101 || A=10101 B=10101 | OUT=10101 || A=010101 B=010101 | OUT=010101 
+
+                  30:SEL=x || A=1 B=1 | OUT=1 || A=0101 B=0101 | OUT=0101 || A=10101 B=10101 | OUT=10101 || A=010101 B=010101 | OUT=010101 
+
+                  40:SEL=1 || A=1 B=0 | OUT=0 || A=0101 B=1010 | OUT=1010 || A=10101 B=01010 | OUT=01010 || A=010101 B=101010 | OUT=101010 
+
+                  50:SEL=0 || A=1 B=0 | OUT=1 || A=0101 B=1010 | OUT=0101 || A=10101 B=01010 | OUT=10101 || A=010101 B=101010 | OUT=010101 
+
+                  60:SEL=x || A=1 B=0 | OUT=x || A=0101 B=1010 | OUT=xxxx || A=10101 B=01010 | OUT=xxxxx || A=010101 B=101010 | OUT=xxxxxx 
+
+                  70:SEL=1 || A=0 B=1 | OUT=1 || A=1010 B=0101 | OUT=0101 || A=01010 B=10101 | OUT=10101 || A=101010 B=010101 | OUT=010101 
+
+                  80:SEL=0 || A=0 B=1 | OUT=0 || A=1010 B=0101 | OUT=1010 || A=01010 B=10101 | OUT=01010 || A=101010 B=010101 | OUT=101010 
+
+                  90:SEL=x || A=0 B=1 | OUT=x || A=1010 B=0101 | OUT=xxxx || A=01010 B=10101 | OUT=xxxxx || A=101010 B=010101 | OUT=xxxxxx 
+
+                 100:SEL=x || A=1 B=1 | OUT=1 || A=0111 B=0101 | OUT=01x1 || A=00111 B=10101 | OUT=x01x1 || A=000111 B=010101 | OUT=0x01x1 
+
+                 110:SEL=x || A=1 B=1 | OUT=1 || A=1011 B=0101 | OUT=xxx1 || A=01011 B=10101 | OUT=xxxx1 || A=001011 B=010101 | OUT=0xxxx1 
+
+                 120:SEL=x || A=0 B=1 | OUT=x || A=0110 B=0101 | OUT=01xx || A=00110 B=10101 | OUT=x01xx || A=100110 B=010101 | OUT=xx01xx 
+
+                 130:SEL=x || A=0 B=1 | OUT=x || A=1000 B=0101 | OUT=xx0x || A=11000 B=10101 | OUT=1xx0x || A=111000 B=010101 | OUT=x1xx0x 
+
+                 140:SEL=x || A=1 B=0 | OUT=x || A=0111 B=1010 | OUT=xx1x || A=00111 B=01010 | OUT=0xx1x || A=000111 B=101010 | OUT=x0xx1x 
+
+                 150:SEL=x || A=1 B=0 | OUT=x || A=1011 B=1010 | OUT=101x || A=01011 B=01010 | OUT=0101x || A=001011 B=101010 | OUT=x0101x 
+
+                 160:SEL=x || A=0 B=0 | OUT=0 || A=0110 B=1010 | OUT=xx10 || A=00110 B=01010 | OUT=0xx10 || A=100110 B=101010 | OUT=10xx10 
+
+                 170:SEL=x || A=0 B=0 | OUT=0 || A=1000 B=1010 | OUT=10x0 || A=11000 B=01010 | OUT=x10x0 || A=111000 B=101010 | OUT=1x10x0 
+
+$finish called from file "mux_tb.v", line 59.
+$finish at simulation time                  180
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 180 ns
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Sat Mar 27 16:11:02 2021
