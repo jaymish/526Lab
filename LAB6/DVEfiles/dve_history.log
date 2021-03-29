@@ -1,0 +1,237 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/users9/jp581081/526LSP21/HW_TEST/vcdplus.vpd -design V1} {gui_open_db -file /home/users9/jp581081/526LSP21/LAB5/vcdplus.vpd -design V1} {gui_open_db -file /home/users9/jp581081/526LSP21/LAB4/vcdplus.vpd -design V1} {gui_open_db -file /home/users9/jp581081/526LSP21/LAB3/vcdplus.vpd -design V1} {gui_open_db -file /home/users9/jp581081/526LSP21/LAB2/vcdplus.vpd -design V1}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1487
+gui_set_state_value -category Layout -key child_console_size_y -value 127
+gui_set_state_value -category Layout -key child_data_size_x -value 105
+gui_set_state_value -category Layout -key child_data_size_y -value 566
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 105
+gui_set_state_value -category Layout -key child_hier_size_y -value 566
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1280
+gui_set_state_value -category Layout -key child_source_size_y -value 561
+gui_set_state_value -category Layout -key child_watch_size_x -value 1264
+gui_set_state_value -category Layout -key child_watch_size_y -value 105
+gui_set_state_value -category Layout -key child_wave_colname -value 99
+gui_set_state_value -category Layout -key child_wave_colvalue -value 50
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 153
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 1312
+gui_set_state_value -category Layout -key child_wave_size_x -value 1269
+gui_set_state_value -category Layout -key child_wave_size_y -value 434
+gui_set_state_value -category Layout -key main_pos_x -value 8
+gui_set_state_value -category Layout -key main_pos_y -value 31
+gui_set_state_value -category Layout -key main_size_x -value 1495
+gui_set_state_value -category Layout -key main_size_y -value 823
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1475
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 674
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 8
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 31
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1478
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 809
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/users9/jp581081/526LSP21/LAB6/vcdplus.vpd -design V1
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 122 -fileIdFrom 0 -lto 33 -idxto 125 -fileIdTo 0 -selection {SEL} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 126 -fileIdFrom 0 -lto 33 -idxto 130 -fileIdTo 0 -selection {mux1} -selectionId 1 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 122 -fileIdFrom 0 -lto 33 -idxto 125 -fileIdTo 0 -selection {SEL} -selectionId 0 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 126 -fileIdFrom 0 -lto 33 -idxto 132 -fileIdTo 0 -selection {mux1.A} -selectionId 1 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 133 -fileIdFrom 0 -lto 33 -idxto 139 -fileIdTo 0 -selection {mux1.B} -selectionId 2 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 140 -fileIdFrom 0 -lto 33 -idxto 148 -fileIdTo 0 -selection {mux1.OUT} -selectionId 3 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 150 -fileIdFrom 0 -lto 33 -idxto 156 -fileIdTo 0 -selection {mux2.A} -selectionId 4 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 157 -fileIdFrom 0 -lto 33 -idxto 163 -fileIdTo 0 -selection {mux2.B} -selectionId 5 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 164 -fileIdFrom 0 -lto 33 -idxto 172 -fileIdTo 0 -selection {mux2.OUT} -selectionId 6 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 174 -fileIdFrom 0 -lto 33 -idxto 180 -fileIdTo 0 -selection {mux3.A} -selectionId 7 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 181 -fileIdFrom 0 -lto 33 -idxto 187 -fileIdTo 0 -selection {mux3.B} -selectionId 8 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 188 -fileIdFrom 0 -lto 33 -idxto 196 -fileIdTo 0 -selection {mux3.OUT} -selectionId 9 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 198 -fileIdFrom 0 -lto 33 -idxto 204 -fileIdTo 0 -selection {mux4.A} -selectionId 10 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 205 -fileIdFrom 0 -lto 33 -idxto 211 -fileIdTo 0 -selection {mux4.B} -selectionId 11 -replace 0
+gui_src_highlight_item -id Source.1 -lfrom 33 -idxfrom 212 -fileIdFrom 0 -lto 33 -idxto 220 -fileIdTo 0 -selection {mux4.OUT} -selectionId 12 -replace 0
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Source.1 { mux_tb.SEL {mux_tb.mux1.A[0:0]} {mux_tb.mux1.B[0:0]} {mux_tb.mux1.OUT[0:0]} {mux_tb.mux2.A[3:0]} {mux_tb.mux2.B[3:0]} {mux_tb.mux2.OUT[3:0]} {mux_tb.mux3.A[4:0]} {mux_tb.mux3.B[4:0]} {mux_tb.mux3.OUT[4:0]} {mux_tb.mux4.A[5:0]} {mux_tb.mux4.B[5:0]} {mux_tb.mux4.OUT[5:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 { {mux_tb.mux4.OUT[5:0]}  {New Group}  {mux_tb.mux4.A[5:0]}  {mux_tb.mux4.B[5:0]}  {mux_tb.mux3.OUT[4:0]}  {mux_tb.mux3.A[4:0]}  {mux_tb.mux3.B[4:0]}  {mux_tb.mux2.OUT[3:0]}  {mux_tb.mux2.B[3:0]}  {mux_tb.mux2.A[3:0]}  {mux_tb.mux1.OUT[0:0]}  {mux_tb.mux1.B[0:0]}  {mux_tb.mux1.A[0:0]}  mux_tb.SEL  Group1   }
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux2.A[3:0]}   }
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux4.OUT[5:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux4.B[5:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux4.A[5:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux3.OUT[4:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux3.B[4:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux3.A[4:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux2.OUT[3:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux2.B[3:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux2.A[3:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux1.OUT[0:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux1.B[0:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux1.A[0:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { mux_tb.SEL   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_marker_move -id  Wave.1 C1 35
+gui_marker_move -id  Wave.1 C1 66
+gui_marker_move -id  Wave.1 C1 20
+gui_marker_move -id  Wave.1 C1 0
+gui_marker_move -id  Wave.1 C1 10
+gui_marker_move -id  Wave.1 C1 0
+gui_wv_zoom_timerange -id  Wave.1 0 217
+gui_wv_zoom_timerange -id  Wave.1 0 219
+gui_wv_zoom_timerange -id  Wave.1 0 222
+gui_zoom -window Wave.1 -full
+gui_copy_selected -id Wave.1
+gui_paste_clipboard -id Wave.1
+gui_paste_clipboard -id Wave.1
+gui_list_select -id Wave.1 -selected  { mux_tb.SEL   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {mux_tb.mux1.OUT[0:0]} {{mux_tb.SEL}} 
+gui_list_select -id Wave.1 -selected  { mux_tb.SEL   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {mux_tb.mux2.OUT[3:0]} {{mux_tb.SEL}} 
+gui_paste_clipboard -id Wave.1
+gui_list_select -id Wave.1 -selected  { mux_tb.SEL   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {mux_tb.mux3.OUT[4:0]} {{mux_tb.SEL}} 
+gui_list_select -id Wave.1 -selected  {  }
+gui_list_select -id Wave.1 -selected  { {New Group}   }
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux4.OUT[5:0]}   }
+gui_list_select -id Wave.1 -selected  { {New Group}   }
+gui_paste_clipboard -id Wave.1
+gui_list_select -id Wave.1 -selected  { mux_tb.SEL   }
+gui_list_move  -id  Wave.1    -sid  Wave.1   -after {mux_tb.mux4.OUT[5:0]} {{mux_tb.SEL}} 
+gui_delete_selected -id  Wave.1
+gui_list_select -id Wave.1 -selected  { {mux_tb.mux4.OUT[5:0]}   }
+gui_list_select -id Wave.1 -selected  {  }
+gui_marker_move -id  Wave.1 C1 12
+gui_marker_move -id  Wave.1 C1 23
+gui_marker_move -id  Wave.1 C1 3
+gui_marker_move -id  Wave.1 C1 0
+gui_wv_zoom_timerange -id  Wave.1 0 163
+gui_wv_scroll_hslidermove -id  Wave.1 102
+gui_wv_scroll_hslidermove -id  Wave.1 114
+gui_wv_zoom_timerange -id  Wave.1 16 168
+gui_wv_scroll_hslidermove -id  Wave.1 195
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 27 175
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 32 177
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 34 178
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 36 176
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scroll_hslidermove -id  Wave.1 285
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 40 180
+gui_wv_zoom_timerange -id  Wave.1 40 181
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 39 179
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 40 180
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 39 165
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 54 171
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 63 176
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 67 178
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 69 179
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 70 180
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 69 173
+gui_wv_zoom_timerange -id  Wave.1 69 169
+gui_wv_zoom_timerange -id  Wave.1 69 171
+gui_wv_zoom_timerange -id  Wave.1 69 172
+gui_wv_zoom_timerange -id  Wave.1 69 173
+gui_wv_zoom_timerange -id  Wave.1 69 175
+gui_wv_zoom_timerange -id  Wave.1 69 177
+gui_wv_zoom_timerange -id  Wave.1 69 178
+gui_wv_zoom_timerange -id  Wave.1 69 180
+gui_wv_zoom_timerange -id  Wave.1 69 180
+gui_wv_zoom_timerange -id  Wave.1 69 189
+gui_wv_zoom_timerange -id  Wave.1 69 199
+gui_wv_zoom_timerange -id  Wave.1 69 207
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 40 178
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 42 182
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 39 179
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 40 180
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_zoom_timerange -id  Wave.1 40 180
+gui_wv_scrollright -id  Wave.1  line
+gui_seek_criteria -id Wave.1 "Rising" 
+gui_seek_criteria -id Wave.1 "Any Edge" 
+gui_close_window -window TopLevel.2

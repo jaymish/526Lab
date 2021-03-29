@@ -2,7 +2,7 @@
 
 module majority_tb();
 
-reg a,b,c,d;
+reg a,b,c,d,e,f;
 wire out;
 //majority UUT(out,a,b,c,d);
 
@@ -17,10 +17,10 @@ wire out;
 	initial begin
 
 	$vcdpluson;
-   a=0; b = 1; c = 0;d=1;
+   a=12,b=4,c=4'b1110,d=4'b0000,e=4'b001x,f=4'bzzzz;
      $display("%d:a=%b || b=%b ",$time,a,b);
      $display("%d:c=%b || d=%b ",$time,c,d);
-    a = #50 b;     
+    /*a = #50 b;     
      $display("%d:a=%b || b=%b ",$time,a,b);
      $display("%d:c=%b || d=%b ",$time,c,d);
        
@@ -34,7 +34,7 @@ wire out;
      #50 $display("%d:a=%b || b=%b ",$time,a,b);
      $display("%d:c=%b || d=%b ",$time,c,d);	
      #50 $display("%d:a=%b || b=%b ",$time,a,b);
-     $display("%d:c=%b || d=%b ",$time,c,d);	
+     $display("%d:c=%b || d=%b ",$time,c,d);	*/
 	#10 $finish;
 	end
  
