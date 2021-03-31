@@ -58,4 +58,5 @@ module mux_tb();
 
 	#10 $finish;
 	end
+	
 endmodule

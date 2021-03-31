@@ -1,0 +1,1 @@
+vcs -debug -full64 -sverilog sumofproduct.v sop.v sop_tb.sv +define+FORCE_ERROR
