@@ -1,0 +1,270 @@
+{
+    "perf": [
+        [
+            0.044093132019042969,
+            0.034613999999999999,
+            0.019928999999999999,
+            205924,
+            206592,
+            1618096222.6449981,
+            7652131004603028,
+            "doParsingAndDesignResolution",
+            "entry"
+        ],
+        [
+            0.053303003311157227,
+            0.036107,
+            0.022658000000000001,
+            206656,
+            207304,
+            1618096222.6542079,
+            7652131036832360,
+            "doParsingAndDesignResolution",
+            "exit"
+        ],
+        [
+            0.066677093505859375,
+            0.036672000000000003,
+            0.023050999999999999,
+            206656,
+            207304,
+            1618096222.667582,
+            7652131083719718,
+            "doPostDesignResolutionToVir2Vcs",
+            "entry"
+        ],
+        [
+            0.083748102188110352,
+            0.038762999999999999,
+            0.025836999999999999,
+            207820,
+            207824,
+            1618096222.684653,
+            7652131143593066,
+            "doUptoVir2VcsNoSepCleanup",
+            "entry"
+        ],
+        [
+            0.39894199371337891,
+            0.060484999999999997,
+            0.048604000000000001,
+            208984,
+            221360,
+            1618096222.9998469,
+            7652132248290638,
+            "doUptoVir2VcsNoSepCleanup",
+            "exit"
+        ],
+        [
+            0.39917612075805664,
+            0.060484999999999997,
+            0.048839,
+            208984,
+            221360,
+            1618096223.0000811,
+            7652132248997522,
+            "doRadify_vir2vcsAll",
+            "entry"
+        ],
+        [
+            0.42405796051025391,
+            0.066609000000000002,
+            0.052414000000000002,
+            209368,
+            221360,
+            1618096223.0249629,
+            7652132336309302,
+            "doRadify_vir2vcsAll",
+            "exit"
+        ],
+        [
+            0.42420816421508789,
+            0.066609000000000002,
+            0.052565000000000001,
+            209368,
+            221360,
+            1618096223.0251131,
+            7652132336694052,
+            "doPostDesignResolutionToVir2Vcs",
+            "exit"
+        ],
+        [
+            0.42431306838989258,
+            0.066609000000000002,
+            0.052671000000000003,
+            209368,
+            221360,
+            1618096223.025218,
+            7652132337038426,
+            "doGAToPass2",
+            "entry"
+        ],
+        [
+            0.5379641056060791,
+            0.067271999999999998,
+            0.057347000000000002,
+            207812,
+            221360,
+            1618096223.138869,
+            7652132735161902,
+            "DoPass2",
+            "entry"
+        ],
+        [
+            0.65788412094116211,
+            0.084626999999999994,
+            0.076933000000000001,
+            210860,
+            221360,
+            1618096223.2587891,
+            7652133155579704,
+            "DoPass2",
+            "exit"
+        ]
+    ],
+    "cycles_program_begin": 7652130907965996,
+    "MlibObjs": {},
+    "CompileProcesses": [
+        "cgproc.20234.json"
+    ],
+    "PEModules": [],
+    "PrevCompiledModules": {
+        "rom": {
+            "argVf_d": {
+                "bytes": 10082,
+                "mod": "rom",
+                "mode": 4,
+                "checksum": 0,
+                "out": "argVf_d.o",
+                "archive": "archive.121/_prev_archive_1.a"
+            }
+        },
+        "ram_tb": {
+            "mLbZt_d": {
+                "bytes": 22124,
+                "mod": "ram_tb",
+                "archive": "archive.121/_prev_archive_1.a",
+                "out": "mLbZt_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7620,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        }
+    },
+    "SIMBData": {
+        "archive": "archive.121/_20234_archive_1.a",
+        "out": "amcQwB.o",
+        "bytes": 99290,
+        "text": 0
+    },
+    "NameTable": {
+        "rom": [
+            "rom",
+            "argVf",
+            "module",
+            3
+        ],
+        "ram_tb": [
+            "ram_tb",
+            "mLbZt",
+            "module",
+            1
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            2
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "totalObjSize": 99290,
+        "nMops": 1409,
+        "CodeGen(%)": 18.743747562609144,
+        "nQuads": 562,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.067320000000000005,
+            "ru_stime_sec": 0.057387000000000001,
+            "ru_nivcsw": 40,
+            "ru_maxrss_kb": 68472,
+            "ru_minflt": 22443,
+            "ru_majflt": 0,
+            "ru_nvcsw": 253
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.028524999999999998,
+            "ru_stime_sec": 0.032787999999999998,
+            "ru_nivcsw": 6,
+            "ru_maxrss_kb": 22372,
+            "ru_minflt": 6321,
+            "ru_majflt": 0,
+            "ru_nvcsw": 17
+        },
+        "cpu_cycles_cgstart": 7652132735302884,
+        "outputSizePerQuad": 176.67259786476868,
+        "ru_self_end": {
+            "ru_utime_sec": 0.089428999999999995,
+            "ru_stime_sec": 0.082695000000000005,
+            "ru_nivcsw": 50,
+            "ru_maxrss_kb": 74388,
+            "ru_minflt": 24847,
+            "ru_majflt": 0,
+            "ru_nvcsw": 328
+        },
+        "Frontend(%)": 81.256252437390856,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.028524999999999998,
+            "ru_stime_sec": 0.036851000000000002,
+            "ru_nivcsw": 8,
+            "ru_maxrss_kb": 22744,
+            "ru_minflt": 6914,
+            "ru_majflt": 0,
+            "ru_nvcsw": 22
+        },
+        "cpu_cycles_end": 7652133353467998,
+        "cpu_cycles_total": 2445502002,
+        "mopSpeed": 63729.702835949189,
+        "quadSpeed": 25419.512415758301,
+        "mop/quad": 2.5071174377224201,
+        "peak_mem_kb": 221360,
+        "realTime": 0.71460795402526855
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "rom",
+        "ram_tb"
+    ],
+    "cpu_cycles_pass2_start": 7652132735193570,
+    "CurCompileUdps": {},
+    "incremental": "on",
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "vcs_version": "N-2017.12-SP2-2_Full64",
+        "vcs_build_date": "Build Date = Aug 15 2018 23:36:09",
+        "cwd": "/home/users9/jp581081/526LSP21/LAB7",
+        "master_pid": 20234,
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir",
+        "VCS_HOME": "/opt/synopsys/vcs-mx/N-2017.12-SP2-2",
+        "csrc": "csrc",
+        "daidir_abs": "/home/users9/jp581081/526LSP21/LAB7/simv.daidir",
+        "csrc_abs": "/home/users9/jp581081/526LSP21/LAB7/csrc",
+        "archive_dir": "archive.121"
+    },
+    "rlimit": {
+        "data": -1,
+        "stack": -1
+    },
+    "CompileStatus": "Successful"
+}
