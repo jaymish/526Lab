@@ -1,0 +1,116 @@
+{
+    "ObjArchives": [
+        {
+            "archive": "archive.122/_20614_archive_1.a",
+            "objects": [
+                [
+                    "mLbZt_d.o",
+                    23644
+                ],
+                [
+                    "amcQwB.o",
+                    99578
+                ]
+            ],
+            "size": 123222
+        }
+    ],
+    "reusePaths": {},
+    "Modules": {
+        "ram_tb": {
+            "start_perf": [
+                0.66330409049987793,
+                0.086065000000000003,
+                0.071190000000000003,
+                210328,
+                221332,
+                1618096236.053005,
+                7652177986422916
+            ],
+            "child_modules": {},
+            "Compiled Times": 123,
+            "Compiled": "Yes",
+            "nRouts": 55,
+            "end_perf": [
+                0.76429009437561035,
+                0.118795,
+                0.078126000000000001,
+                215568,
+                221332,
+                7652178340392608,
+                17179869185,
+                0
+            ],
+            "nQuads": 452,
+            "nMops": 1193
+        },
+        "...MASTER...": {
+            "start_perf": [
+                0.61105108261108398,
+                0.082040000000000002,
+                0.060731,
+                207912,
+                221332,
+                1618096236.000752,
+                7652177803299934
+            ],
+            "child_modules": {
+                "ram_tb": 1
+            },
+            "nRouts": 5,
+            "end_perf": [
+                0.66297221183776855,
+                0.085892999999999997,
+                0.071046999999999999,
+                210328,
+                221332,
+                7652177985298984,
+                0,
+                0
+            ],
+            "nQuads": 0,
+            "nMops": 0
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "checksum": 0,
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "text": 402,
+            "bytes": 7494,
+            "mode": 4
+        },
+        "mLbZt_d": {
+            "checksum": 0,
+            "mod": "ram_tb",
+            "out": "mLbZt_d.o",
+            "text": 7674,
+            "bytes": 23644,
+            "archive": "archive.122/_20614_archive_1.a",
+            "mode": 4
+        }
+    },
+    "stat": {
+        "peak_mem_kb": 221332,
+        "ru_childs_end": {
+            "ru_nivcsw": 8,
+            "ru_utime_sec": 0.036861999999999999,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.032904999999999997,
+            "ru_maxrss_kb": 22828,
+            "ru_minflt": 6914,
+            "ru_nvcsw": 22
+        },
+        "ru_self_end": {
+            "ru_nivcsw": 47,
+            "ru_utime_sec": 0.127635,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.085450999999999999,
+            "ru_maxrss_kb": 76908,
+            "ru_minflt": 25369,
+            "ru_nvcsw": 338
+        },
+        "cpu_cycles_end": 7652178615093068
+    }
+}

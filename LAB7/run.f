@@ -1,0 +1,1 @@
+vcs -debug -full64 ram.v rom.v rom_tb.v 

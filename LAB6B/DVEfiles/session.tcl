@@ -1,13 +1,15 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Tue Mar 30 09:41:27 2021
+# Saved on Sat Apr 3 19:34:38 2021
 # Designs open: 1
 #   V1: /home/users9/jp581081/526LSP21/LAB6B/vcdplus.vpd
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: text
-#   Group count = 1
-#   Group Group1 signal count = 6
+#   Group count = 3
+#   Group Group1 signal count = 14
+#   Group Group2 signal count = 15
+#   Group Group3 signal count = 16
 # End_DVE_Session_Save_Info
 
 # DVE version: N-2017.12-SP2-2_Full64
@@ -66,7 +68,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1485 813}}
+gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1483 811}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -107,23 +109,23 @@ gui_hide_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 105]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 151]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 105
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 151
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 105} {height 566} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 105]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 150} {height 566} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 178]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 105
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 178
 gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 566
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 105} {height 566} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
-set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 118]
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 177} {height 566} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 116]
 gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1476
-gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 118
+gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 116
 gui_set_window_pref_key -window ${Console.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1477} {height 117} {dock_state bottom} {dock_on_new_line true}}
+gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1475} {height 115} {dock_state bottom} {dock_on_new_line true}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -193,7 +195,108 @@ set _session_group_1 Group1
 gui_sg_create "$_session_group_1"
 set Group1 "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { text.DATA_IN text.SOP1.S1.R1.R text.SOP1.S1.R2.R text.SOP1.S2.R1.R text.SOP1.S2.R2.R text.CLK }
+gui_sg_addsignal -group "$_session_group_1" { text.SOP1.S1.R1.R text.SOP1.S1.R2.R text.SOP1.S2.R1.R text.SOP1.S2.R2.R text.SOP2.r0 text.SOP2.r1 text.SOP2.r2 text.SOP2.r3 text.C0 text.C1 text.C2 text.C3 text.OUT_sop1 text.OUT_sop2 }
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S1.R1.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S1.R1.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S1.R2.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S1.R2.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S2.R1.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S2.R1.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S2.R2.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S2.R2.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r0}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r0}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r1}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r1}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r2}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r2}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r3}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r3}
+gui_set_radix -radix {decimal} -signals {V1:text.C0}
+gui_set_radix -radix {unsigned} -signals {V1:text.C0}
+gui_set_radix -radix {decimal} -signals {V1:text.C1}
+gui_set_radix -radix {unsigned} -signals {V1:text.C1}
+gui_set_radix -radix {decimal} -signals {V1:text.C2}
+gui_set_radix -radix {unsigned} -signals {V1:text.C2}
+gui_set_radix -radix {decimal} -signals {V1:text.C3}
+gui_set_radix -radix {unsigned} -signals {V1:text.C3}
+gui_set_radix -radix {decimal} -signals {V1:text.OUT_sop1}
+gui_set_radix -radix {unsigned} -signals {V1:text.OUT_sop1}
+gui_set_radix -radix {decimal} -signals {V1:text.OUT_sop2}
+gui_set_radix -radix {unsigned} -signals {V1:text.OUT_sop2}
+
+set _session_group_2 Group2
+gui_sg_create "$_session_group_2"
+set Group2 "$_session_group_2"
+
+gui_sg_addsignal -group "$_session_group_2" { text.DATA_IN text.SOP1.S1.R1.R text.SOP1.S1.R2.R text.SOP1.S2.R1.R text.SOP1.S2.R2.R text.SOP2.r0 text.SOP2.r1 text.SOP2.r2 text.SOP2.r3 text.C0 text.C1 text.C2 text.C3 text.OUT_sop1 text.OUT_sop2 }
+gui_set_radix -radix {decimal} -signals {V1:text.DATA_IN}
+gui_set_radix -radix {unsigned} -signals {V1:text.DATA_IN}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S1.R1.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S1.R1.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S1.R2.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S1.R2.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S2.R1.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S2.R1.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S2.R2.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S2.R2.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r0}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r0}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r1}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r1}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r2}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r2}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r3}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r3}
+gui_set_radix -radix {decimal} -signals {V1:text.C0}
+gui_set_radix -radix {unsigned} -signals {V1:text.C0}
+gui_set_radix -radix {decimal} -signals {V1:text.C1}
+gui_set_radix -radix {unsigned} -signals {V1:text.C1}
+gui_set_radix -radix {decimal} -signals {V1:text.C2}
+gui_set_radix -radix {unsigned} -signals {V1:text.C2}
+gui_set_radix -radix {decimal} -signals {V1:text.C3}
+gui_set_radix -radix {unsigned} -signals {V1:text.C3}
+gui_set_radix -radix {decimal} -signals {V1:text.OUT_sop1}
+gui_set_radix -radix {unsigned} -signals {V1:text.OUT_sop1}
+gui_set_radix -radix {decimal} -signals {V1:text.OUT_sop2}
+gui_set_radix -radix {unsigned} -signals {V1:text.OUT_sop2}
+
+set _session_group_3 Group3
+gui_sg_create "$_session_group_3"
+set Group3 "$_session_group_3"
+
+gui_sg_addsignal -group "$_session_group_3" { text.CLK text.DATA_IN text.SOP1.S1.R1.R text.SOP1.S1.R2.R text.SOP1.S2.R1.R text.SOP1.S2.R2.R text.SOP2.r0 text.SOP2.r1 text.SOP2.r2 text.SOP2.r3 text.C0 text.C1 text.C2 text.C3 text.OUT_sop1 text.OUT_sop2 }
+gui_set_radix -radix {binary} -signals {V1:text.CLK}
+gui_set_radix -radix {decimal} -signals {V1:text.DATA_IN}
+gui_set_radix -radix {unsigned} -signals {V1:text.DATA_IN}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S1.R1.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S1.R1.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S1.R2.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S1.R2.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S2.R1.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S2.R1.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP1.S2.R2.R}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP1.S2.R2.R}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r0}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r0}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r1}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r1}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r2}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r2}
+gui_set_radix -radix {decimal} -signals {V1:text.SOP2.r3}
+gui_set_radix -radix {unsigned} -signals {V1:text.SOP2.r3}
+gui_set_radix -radix {decimal} -signals {V1:text.C0}
+gui_set_radix -radix {unsigned} -signals {V1:text.C0}
+gui_set_radix -radix {decimal} -signals {V1:text.C1}
+gui_set_radix -radix {unsigned} -signals {V1:text.C1}
+gui_set_radix -radix {decimal} -signals {V1:text.C2}
+gui_set_radix -radix {unsigned} -signals {V1:text.C2}
+gui_set_radix -radix {decimal} -signals {V1:text.C3}
+gui_set_radix -radix {unsigned} -signals {V1:text.C3}
+gui_set_radix -radix {decimal} -signals {V1:text.OUT_sop1}
+gui_set_radix -radix {unsigned} -signals {V1:text.OUT_sop1}
+gui_set_radix -radix {decimal} -signals {V1:text.OUT_sop2}
+gui_set_radix -radix {unsigned} -signals {V1:text.OUT_sop2}
 
 # Global: Highlighting
 
@@ -203,7 +306,7 @@ gui_change_stack_mode -mode list
 # Post database loading setting...
 
 # Restore C1 time
-gui_set_time -C1_only 175
+gui_set_time -C1_only 0
 
 
 
@@ -244,8 +347,8 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 # Source 'Source.1'
 gui_src_value_annotate -id ${Source.1} -switch false
 gui_set_env TOGGLE::VALUEANNOTATE 0
-gui_open_source -id ${Source.1}  -replace -active text /home/users9/jp581081/526LSP21/LAB6B/sop_tb.v
-gui_view_scroll -id ${Source.1} -vertical -set 585
+gui_open_source -id ${Source.1}  -replace -active text /home/users9/jp581081/526LSP21/LAB6B/sop_tb.sv
+gui_view_scroll -id ${Source.1} -vertical -set 210
 gui_src_set_reusable -id ${Source.1}
 # Restore toplevel window zorder
 # The toplevel window could be closed if it has no view/pane
