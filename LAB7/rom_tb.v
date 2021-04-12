@@ -28,7 +28,7 @@ module ram_tb();
 
 	initial begin
 		//$monitorb - displays the values of all objects in its list whenever any one of them changes.
-		$monitor("%d:ADDR=%d CS=%b OE=%b DATA_ROM=%h CS=%b OE=%b WS=%b DATA_RAM=%h",$time,ADDR,CS_rom,OE_rom,DATA_rom,CS_ram,OE_ram,WS_ram,DATA_ram);
+		$monitor("%d:ADDR=%d | CS=%b OE=%b | DATA_ROM=%h || CS=%b OE=%b WS=%b | DATA_RAM=%h",$time,ADDR,CS_rom,OE_rom,DATA_rom,CS_ram,OE_ram,WS_ram,DATA_ram);
 		//$time - simulation time		
 	end
 
@@ -52,10 +52,10 @@ module ram_tb();
 		#10 $display("Reading Ram");CS_rom=1'b1;
 		for (ADDR=5'h04;ADDR<5'h1F;ADDR=ADDR+1'b1)
 		begin
-			#10 OE_ram=1'b1; WS_ram=1'b0;
+			#35 OE_ram=1'b1; WS_ram=1'b0;
 		end
 		
-		#10 $finish;
+		#35 $finish;
 	end
 	
 endmodule

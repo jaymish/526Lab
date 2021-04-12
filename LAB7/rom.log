@@ -1,0 +1,97 @@
+Command: /home/users9/jp581081/526LSP21/LAB7/./simv -l rom.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Apr 11 22:20 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0:ADDR= 4 | CS=0 OE=1 | DATA_ROM=58 || CS=1 OE=0 WS=x | DATA_RAM=zz
+                  10:ADDR= 4 | CS=0 OE=0 | DATA_ROM=zz || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                  20:ADDR= 4 | CS=0 OE=1 | DATA_ROM=58 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                  30:ADDR= 4 | CS=0 OE=1 | DATA_ROM=58 || CS=0 OE=0 WS=1 | DATA_RAM=13
+                  45:ADDR= 5 | CS=0 OE=1 | DATA_ROM=ed || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                  55:ADDR= 5 | CS=0 OE=1 | DATA_ROM=ed || CS=0 OE=0 WS=1 | DATA_RAM=de
+                  70:ADDR= 6 | CS=0 OE=1 | DATA_ROM=b7 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                  80:ADDR= 6 | CS=0 OE=1 | DATA_ROM=b7 || CS=0 OE=0 WS=1 | DATA_RAM=ed
+                  95:ADDR= 7 | CS=0 OE=1 | DATA_ROM=34 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 105:ADDR= 7 | CS=0 OE=1 | DATA_ROM=34 || CS=0 OE=0 WS=1 | DATA_RAM=0d
+                 120:ADDR= 8 | CS=0 OE=1 | DATA_ROM=c9 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 130:ADDR= 8 | CS=0 OE=1 | DATA_ROM=c9 || CS=0 OE=0 WS=1 | DATA_RAM=d2
+                 145:ADDR= 9 | CS=0 OE=1 | DATA_ROM=8f || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 155:ADDR= 9 | CS=0 OE=1 | DATA_ROM=8f || CS=0 OE=0 WS=1 | DATA_RAM=ea
+                 170:ADDR=10 | CS=0 OE=1 | DATA_ROM=a0 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 180:ADDR=10 | CS=0 OE=1 | DATA_ROM=a0 || CS=0 OE=0 WS=1 | DATA_RAM=44
+                 195:ADDR=11 | CS=0 OE=1 | DATA_ROM=9b || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 205:ADDR=11 | CS=0 OE=1 | DATA_ROM=9b || CS=0 OE=0 WS=1 | DATA_RAM=e3
+                 220:ADDR=12 | CS=0 OE=1 | DATA_ROM=65 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 230:ADDR=12 | CS=0 OE=1 | DATA_ROM=65 || CS=0 OE=0 WS=1 | DATA_RAM=9c
+                 245:ADDR=13 | CS=0 OE=1 | DATA_ROM=11 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 255:ADDR=13 | CS=0 OE=1 | DATA_ROM=11 || CS=0 OE=0 WS=1 | DATA_RAM=81
+                 270:ADDR=14 | CS=0 OE=1 | DATA_ROM=03 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 280:ADDR=14 | CS=0 OE=1 | DATA_ROM=03 || CS=0 OE=0 WS=1 | DATA_RAM=a0
+                 295:ADDR=15 | CS=0 OE=1 | DATA_ROM=4c || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 305:ADDR=15 | CS=0 OE=1 | DATA_ROM=4c || CS=0 OE=0 WS=1 | DATA_RAM=1a
+                 320:ADDR=16 | CS=0 OE=1 | DATA_ROM=da || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 330:ADDR=16 | CS=0 OE=1 | DATA_ROM=da || CS=0 OE=0 WS=1 | DATA_RAM=73
+                 345:ADDR=17 | CS=0 OE=1 | DATA_ROM=7e || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 355:ADDR=17 | CS=0 OE=1 | DATA_ROM=7e || CS=0 OE=0 WS=1 | DATA_RAM=3f
+                 370:ADDR=18 | CS=0 OE=1 | DATA_ROM=f2 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 380:ADDR=18 | CS=0 OE=1 | DATA_ROM=f2 || CS=0 OE=0 WS=1 | DATA_RAM=75
+                 395:ADDR=19 | CS=0 OE=1 | DATA_ROM=26 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 405:ADDR=19 | CS=0 OE=1 | DATA_ROM=26 || CS=0 OE=0 WS=1 | DATA_RAM=2c
+                 420:ADDR=20 | CS=0 OE=1 | DATA_ROM=86 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 430:ADDR=20 | CS=0 OE=1 | DATA_ROM=86 || CS=0 OE=0 WS=1 | DATA_RAM=68
+                 445:ADDR=21 | CS=0 OE=1 | DATA_ROM=95 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 455:ADDR=21 | CS=0 OE=1 | DATA_ROM=95 || CS=0 OE=0 WS=1 | DATA_RAM=c9
+                 470:ADDR=22 | CS=0 OE=1 | DATA_ROM=fd || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 480:ADDR=22 | CS=0 OE=1 | DATA_ROM=fd || CS=0 OE=0 WS=1 | DATA_RAM=df
+                 495:ADDR=23 | CS=0 OE=1 | DATA_ROM=b1 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 505:ADDR=23 | CS=0 OE=1 | DATA_ROM=b1 || CS=0 OE=0 WS=1 | DATA_RAM=c5
+                 520:ADDR=24 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 530:ADDR=24 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=1 | DATA_RAM=xx
+                 545:ADDR=25 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 555:ADDR=25 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=1 | DATA_RAM=xx
+                 570:ADDR=26 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 580:ADDR=26 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=1 | DATA_RAM=xx
+                 595:ADDR=27 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 605:ADDR=27 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=1 | DATA_RAM=xx
+                 620:ADDR=28 | CS=0 OE=1 | DATA_ROM=12 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 630:ADDR=28 | CS=0 OE=1 | DATA_ROM=12 || CS=0 OE=0 WS=1 | DATA_RAM=21
+                 645:ADDR=29 | CS=0 OE=1 | DATA_ROM=af || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 655:ADDR=29 | CS=0 OE=1 | DATA_ROM=af || CS=0 OE=0 WS=1 | DATA_RAM=ee
+                 670:ADDR=30 | CS=0 OE=1 | DATA_ROM=33 || CS=0 OE=0 WS=0 | DATA_RAM=zz
+                 680:ADDR=30 | CS=0 OE=1 | DATA_ROM=33 || CS=0 OE=0 WS=1 | DATA_RAM=a5
+                 695:ADDR=31 | CS=0 OE=1 | DATA_ROM=xx || CS=0 OE=0 WS=1 | DATA_RAM=a5
+Reading Ram
+                 705:ADDR= 4 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=0 WS=1 | DATA_RAM=a5
+                 740:ADDR= 5 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=de
+                 775:ADDR= 6 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=ed
+                 810:ADDR= 7 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=0d
+                 845:ADDR= 8 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=d2
+                 880:ADDR= 9 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=ea
+                 915:ADDR=10 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=44
+                 950:ADDR=11 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=e3
+                 985:ADDR=12 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=9c
+                1020:ADDR=13 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=81
+                1055:ADDR=14 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=a0
+                1090:ADDR=15 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=1a
+                1125:ADDR=16 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=73
+                1160:ADDR=17 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=3f
+                1195:ADDR=18 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=75
+                1230:ADDR=19 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=2c
+                1265:ADDR=20 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=68
+                1300:ADDR=21 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=c9
+                1335:ADDR=22 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=df
+                1370:ADDR=23 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=c5
+                1405:ADDR=24 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=xx
+                1440:ADDR=25 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=xx
+                1475:ADDR=26 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=xx
+                1510:ADDR=27 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=xx
+                1545:ADDR=28 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=21
+                1580:ADDR=29 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=ee
+                1615:ADDR=30 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=a5
+                1650:ADDR=31 | CS=1 OE=1 | DATA_ROM=zz || CS=0 OE=1 WS=0 | DATA_RAM=xx
+$finish called from file "rom_tb.v", line 58.
+$finish at simulation time                 1685
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1685 ns
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Sun Apr 11 22:20:34 2021

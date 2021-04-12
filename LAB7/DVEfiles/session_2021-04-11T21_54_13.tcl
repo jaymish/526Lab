@@ -1,13 +1,13 @@
 # Begin_DVE_Session_Save_Info
 # DVE full session
-# Saved on Sat Apr 10 15:57:56 2021
+# Saved on Sun Apr 11 21:54:13 2021
 # Designs open: 1
 #   V1: /home/users9/jp581081/526LSP21/LAB7/vcdplus.vpd
 # Toplevel windows open: 1
 # 	TopLevel.1
 #   Source.1: ram_tb
 #   Group count = 1
-#   Group Group1 signal count = 5
+#   Group Group1 signal count = 7
 # End_DVE_Session_Save_Info
 
 # DVE version: N-2017.12-SP2-2_Full64
@@ -66,7 +66,7 @@ if {![gui_exist_window -window TopLevel.1]} {
 } else { 
     set TopLevel.1 TopLevel.1
 }
-gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1456 784}}
+gui_show_window -window ${TopLevel.1} -show_state normal -rect {{8 31} {1448 776}}
 
 # ToolBar settings
 gui_set_toolbar_attributes -toolbar {TimeOperations} -dock_state top
@@ -107,23 +107,23 @@ gui_hide_toolbar -toolbar {Testbench}
 # End ToolBar settings
 
 # Docked window settings
-set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 124]
+set HSPane.1 [gui_create_window -type HSPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 116]
 catch { set Hier.1 [gui_share_window -id ${HSPane.1} -type Hier] }
-gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 124
+gui_set_window_pref_key -window ${HSPane.1} -key dock_width -value_type integer -value 116
 gui_set_window_pref_key -window ${HSPane.1} -key dock_height -value_type integer -value -1
 gui_set_window_pref_key -window ${HSPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 123} {height 549} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
-set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 151]
+gui_update_layout -id ${HSPane.1} {{left 0} {top 0} {width 115} {height 541} {dock_state left} {dock_on_new_line true} {child_hier_colhier 140} {child_hier_coltype 100} {child_hier_colpd 0} {child_hier_col1 0} {child_hier_col2 1} {child_hier_col3 -1}}
+set DLPane.1 [gui_create_window -type DLPane -parent ${TopLevel.1} -dock_state left -dock_on_new_line true -dock_extent 143]
 catch { set Data.1 [gui_share_window -id ${DLPane.1} -type Data] }
-gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 151
-gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 550
+gui_set_window_pref_key -window ${DLPane.1} -key dock_width -value_type integer -value 143
+gui_set_window_pref_key -window ${DLPane.1} -key dock_height -value_type integer -value 542
 gui_set_window_pref_key -window ${DLPane.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 150} {height 549} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
+gui_update_layout -id ${DLPane.1} {{left 0} {top 0} {width 142} {height 541} {dock_state left} {dock_on_new_line true} {child_data_colvariable 140} {child_data_colvalue 100} {child_data_coltype 40} {child_data_col1 0} {child_data_col2 1} {child_data_col3 2}}
 set Console.1 [gui_create_window -type Console -parent ${TopLevel.1} -dock_state bottom -dock_on_new_line true -dock_extent 105]
-gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1449
+gui_set_window_pref_key -window ${Console.1} -key dock_width -value_type integer -value 1441
 gui_set_window_pref_key -window ${Console.1} -key dock_height -value_type integer -value 105
 gui_set_window_pref_key -window ${Console.1} -key dock_offset -value_type integer -value 0
-gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1448} {height 105} {dock_state bottom} {dock_on_new_line true}}
+gui_update_layout -id ${Console.1} {{left 0} {top 0} {width 1440} {height 105} {dock_state bottom} {dock_on_new_line true}}
 #### Start - Readjusting docked view's offset / size
 set dockAreaList { top left right bottom }
 foreach dockArea $dockAreaList {
@@ -191,7 +191,7 @@ set _session_group_1 Group1
 gui_sg_create "$_session_group_1"
 set Group1 "$_session_group_1"
 
-gui_sg_addsignal -group "$_session_group_1" { ram_tb.OE ram_tb.WS ram_tb.CS ram_tb.ADDR ram_tb.DATA }
+gui_sg_addsignal -group "$_session_group_1" { ram_tb.CS_rom ram_tb.OE_rom ram_tb.DATA_rom ram_tb.CS_ram ram_tb.OE_ram ram_tb.WS_ram ram_tb.DATA_ram }
 
 # Global: Highlighting
 
@@ -234,8 +234,6 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {LowPower 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
 gui_list_set_filter -id ${Data.1} -text {*}
 gui_list_show_data -id ${Data.1} {ram_tb}
-gui_show_window -window ${Data.1}
-catch { gui_list_select -id ${Data.1} {ram_tb.OE ram_tb.WS ram_tb.CS ram_tb.ADDR ram_tb.DATA }}
 gui_view_scroll -id ${Data.1} -vertical -set 0
 gui_view_scroll -id ${Data.1} -horizontal -set 0
 gui_view_scroll -id ${Hier.1} -vertical -set 0
@@ -244,7 +242,7 @@ gui_view_scroll -id ${Hier.1} -horizontal -set 0
 # Source 'Source.1'
 gui_src_value_annotate -id ${Source.1} -switch false
 gui_set_env TOGGLE::VALUEANNOTATE 0
-gui_open_source -id ${Source.1}  -replace -active ram_tb /home/users9/jp581081/526LSP21/LAB7/ram_tb.v
+gui_open_source -id ${Source.1}  -replace -active ram_tb /home/users9/jp581081/526LSP21/LAB7/rom_tb.v
 gui_view_scroll -id ${Source.1} -vertical -set 210
 gui_src_set_reusable -id ${Source.1}
 # Restore toplevel window zorder
@@ -252,7 +250,6 @@ gui_src_set_reusable -id ${Source.1}
 if {[gui_exist_window -window ${TopLevel.1}]} {
 	gui_set_active_window -window ${TopLevel.1}
 	gui_set_active_window -window ${Source.1}
-	gui_set_active_window -window ${DLPane.1}
 }
 #</Session>
 

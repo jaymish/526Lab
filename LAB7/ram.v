@@ -23,7 +23,7 @@ module ram(DATA, OE, WS, CS, ADDR);
 parameter width=8,depth=256;
 input OE, WS, CS;//OE-active high | CS-active low
 input [4:0] ADDR;
-inout  [7:0] DATA; 
+inout  [width-1:0] DATA; 
 reg [width-1:0] memory [0:depth-1];
 assign DATA= (OE & !CS) ? memory[ADDR]:8'bZ;
 always @(posedge WS )//always at the rising edge of WS
