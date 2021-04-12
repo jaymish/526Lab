@@ -1,0 +1,113 @@
+Command: /home/users9/jp581081/526LSP21/LAB7/./simv -l ram.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Apr 11 22:05 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+                   0:ADDR= 0 | CS=1 OE=0 WS=0 | DATA=zz
+                  10:ADDR= 0 | CS=0 OE=0 WS=0 | DATA=zz
+                  30:ADDR= 0 | CS=0 OE=0 WS=1 | DATA=00
+                  45:ADDR= 1 | CS=0 OE=0 WS=0 | DATA=zz
+                  55:ADDR= 1 | CS=0 OE=0 WS=1 | DATA=01
+                  70:ADDR= 2 | CS=0 OE=0 WS=0 | DATA=zz
+                  80:ADDR= 2 | CS=0 OE=0 WS=1 | DATA=02
+                  95:ADDR= 3 | CS=0 OE=0 WS=0 | DATA=zz
+                 105:ADDR= 3 | CS=0 OE=0 WS=1 | DATA=03
+                 120:ADDR= 4 | CS=0 OE=0 WS=0 | DATA=zz
+                 130:ADDR= 4 | CS=0 OE=0 WS=1 | DATA=04
+                 145:ADDR= 5 | CS=0 OE=0 WS=0 | DATA=zz
+                 155:ADDR= 5 | CS=0 OE=0 WS=1 | DATA=05
+                 170:ADDR= 6 | CS=0 OE=0 WS=0 | DATA=zz
+                 180:ADDR= 6 | CS=0 OE=0 WS=1 | DATA=06
+                 195:ADDR= 7 | CS=0 OE=0 WS=0 | DATA=zz
+                 205:ADDR= 7 | CS=0 OE=0 WS=1 | DATA=07
+                 220:ADDR= 8 | CS=0 OE=0 WS=0 | DATA=zz
+                 230:ADDR= 8 | CS=0 OE=0 WS=1 | DATA=08
+                 245:ADDR= 9 | CS=0 OE=0 WS=0 | DATA=zz
+                 255:ADDR= 9 | CS=0 OE=0 WS=1 | DATA=09
+                 270:ADDR=10 | CS=0 OE=0 WS=0 | DATA=zz
+                 280:ADDR=10 | CS=0 OE=0 WS=1 | DATA=0a
+                 295:ADDR=11 | CS=0 OE=0 WS=0 | DATA=zz
+                 305:ADDR=11 | CS=0 OE=0 WS=1 | DATA=0b
+                 320:ADDR=12 | CS=0 OE=0 WS=0 | DATA=zz
+                 330:ADDR=12 | CS=0 OE=0 WS=1 | DATA=0c
+                 345:ADDR=13 | CS=0 OE=0 WS=0 | DATA=zz
+                 355:ADDR=13 | CS=0 OE=0 WS=1 | DATA=0d
+                 370:ADDR=14 | CS=0 OE=0 WS=0 | DATA=zz
+                 380:ADDR=14 | CS=0 OE=0 WS=1 | DATA=0e
+                 395:ADDR=15 | CS=0 OE=0 WS=0 | DATA=zz
+                 405:ADDR=15 | CS=0 OE=0 WS=1 | DATA=0f
+                 420:ADDR=16 | CS=0 OE=0 WS=0 | DATA=zz
+                 430:ADDR=16 | CS=0 OE=0 WS=1 | DATA=10
+                 445:ADDR=17 | CS=0 OE=0 WS=0 | DATA=zz
+                 455:ADDR=17 | CS=0 OE=0 WS=1 | DATA=11
+                 470:ADDR=18 | CS=0 OE=0 WS=0 | DATA=zz
+                 480:ADDR=18 | CS=0 OE=0 WS=1 | DATA=12
+                 495:ADDR=19 | CS=0 OE=0 WS=0 | DATA=zz
+                 505:ADDR=19 | CS=0 OE=0 WS=1 | DATA=13
+                 520:ADDR=20 | CS=0 OE=0 WS=0 | DATA=zz
+                 530:ADDR=20 | CS=0 OE=0 WS=1 | DATA=14
+                 545:ADDR=21 | CS=0 OE=0 WS=0 | DATA=zz
+                 555:ADDR=21 | CS=0 OE=0 WS=1 | DATA=15
+                 570:ADDR=22 | CS=0 OE=0 WS=0 | DATA=zz
+                 580:ADDR=22 | CS=0 OE=0 WS=1 | DATA=16
+                 595:ADDR=23 | CS=0 OE=0 WS=0 | DATA=zz
+                 605:ADDR=23 | CS=0 OE=0 WS=1 | DATA=17
+                 620:ADDR=24 | CS=0 OE=0 WS=0 | DATA=zz
+                 630:ADDR=24 | CS=0 OE=0 WS=1 | DATA=18
+                 645:ADDR=25 | CS=0 OE=0 WS=0 | DATA=zz
+                 655:ADDR=25 | CS=0 OE=0 WS=1 | DATA=19
+                 670:ADDR=26 | CS=0 OE=0 WS=0 | DATA=zz
+                 680:ADDR=26 | CS=0 OE=0 WS=1 | DATA=1a
+                 695:ADDR=27 | CS=0 OE=0 WS=0 | DATA=zz
+                 705:ADDR=27 | CS=0 OE=0 WS=1 | DATA=1b
+                 720:ADDR=28 | CS=0 OE=0 WS=0 | DATA=zz
+                 730:ADDR=28 | CS=0 OE=0 WS=1 | DATA=1c
+                 745:ADDR=29 | CS=0 OE=0 WS=0 | DATA=zz
+                 755:ADDR=29 | CS=0 OE=0 WS=1 | DATA=1d
+                 770:ADDR=30 | CS=0 OE=0 WS=0 | DATA=zz
+                 780:ADDR=30 | CS=0 OE=0 WS=1 | DATA=1e
+                 795:ADDR=31 | CS=0 OE=0 WS=0 | DATA=zz
+                 805:ADDR=31 | CS=0 OE=0 WS=1 | DATA=1f
+                 830:ADDR= 1 | CS=0 OE=0 WS=0 | DATA=zz
+                 840:ADDR= 2 | CS=0 OE=1 WS=0 | DATA=02
+                 860:ADDR= 2 | CS=1 OE=1 WS=0 | DATA=zz
+                 870:ADDR= 2 | CS=0 OE=1 WS=0 | DATA=02
+                 880:ADDR= 0 | CS=0 OE=1 WS=0 | DATA=00
+                 905:ADDR= 1 | CS=0 OE=1 WS=0 | DATA=01
+                 930:ADDR= 2 | CS=0 OE=1 WS=0 | DATA=02
+                 955:ADDR= 3 | CS=0 OE=1 WS=0 | DATA=03
+                 980:ADDR= 4 | CS=0 OE=1 WS=0 | DATA=04
+                1005:ADDR= 5 | CS=0 OE=1 WS=0 | DATA=05
+                1030:ADDR= 6 | CS=0 OE=1 WS=0 | DATA=06
+                1055:ADDR= 7 | CS=0 OE=1 WS=0 | DATA=07
+                1080:ADDR= 8 | CS=0 OE=1 WS=0 | DATA=08
+                1105:ADDR= 9 | CS=0 OE=1 WS=0 | DATA=09
+                1130:ADDR=10 | CS=0 OE=1 WS=0 | DATA=0a
+                1155:ADDR=11 | CS=0 OE=1 WS=0 | DATA=0b
+                1180:ADDR=12 | CS=0 OE=1 WS=0 | DATA=0c
+                1205:ADDR=13 | CS=0 OE=1 WS=0 | DATA=0d
+                1230:ADDR=14 | CS=0 OE=1 WS=0 | DATA=0e
+                1255:ADDR=15 | CS=0 OE=1 WS=0 | DATA=0f
+                1280:ADDR=16 | CS=0 OE=1 WS=0 | DATA=10
+                1305:ADDR=17 | CS=0 OE=1 WS=0 | DATA=11
+                1330:ADDR=18 | CS=0 OE=1 WS=0 | DATA=12
+                1355:ADDR=19 | CS=0 OE=1 WS=0 | DATA=13
+                1380:ADDR=20 | CS=0 OE=1 WS=0 | DATA=14
+                1405:ADDR=21 | CS=0 OE=1 WS=0 | DATA=15
+                1430:ADDR=22 | CS=0 OE=1 WS=0 | DATA=16
+                1455:ADDR=23 | CS=0 OE=1 WS=0 | DATA=17
+                1480:ADDR=24 | CS=0 OE=1 WS=0 | DATA=18
+                1505:ADDR=25 | CS=0 OE=1 WS=0 | DATA=19
+                1530:ADDR=26 | CS=0 OE=1 WS=0 | DATA=1a
+                1555:ADDR=27 | CS=0 OE=1 WS=0 | DATA=1b
+                1580:ADDR=28 | CS=0 OE=1 WS=0 | DATA=1c
+                1605:ADDR=29 | CS=0 OE=1 WS=0 | DATA=1d
+                1630:ADDR=30 | CS=0 OE=1 WS=0 | DATA=1e
+                1655:ADDR=31 | CS=0 OE=1 WS=0 | DATA=1f
+                1690:ADDR=31 | CS=1 OE=1 WS=0 | DATA=zz
+$finish called from file "ram_tb.v", line 59.
+$finish at simulation time                 1700
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1700 ns
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Sun Apr 11 22:05:04 2021
