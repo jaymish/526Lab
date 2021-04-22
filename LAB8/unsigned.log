@@ -1,0 +1,194 @@
+Command: /home/users9/jp581081/526LSP21/LAB8/./simv -l unsigned.log
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-2_Full64; Runtime version N-2017.12-SP2-2_Full64;  Apr 21 21:52 2021
+VCD+ Writer N-2017.12-SP2-2_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+Addition
+                   0:A=  3 B=  2 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  x | OF=x SF=x ZF=x CF=x
+                   5:A=  3 B=  2 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  5 | OF=0 SF=0 ZF=0 CF=0
+Subtraction
+                  10:A=  3 B=  2 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  5 | OF=0 SF=0 ZF=0 CF=0
+                  15:A=  3 B=  2 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=0
+And Operation
+                  20:A=  3 B=  2 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=0
+                  25:A=  3 B=  2 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                  30:A=  3 B=  2 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+                  35:A=  3 B=  2 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                  40:A=  3 B=  2 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+                  45:A=  3 B=  2 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=0
+Not A
+                  50:A=  3 B=  2 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=0
+                  55:A=  3 B=  2 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=252 | OF=0 SF=0 ZF=0 CF=0
+Addition
+                  60:A=  2 B=  3 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=252 | OF=0 SF=0 ZF=0 CF=0
+                  65:A=  2 B=  3 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  5 | OF=0 SF=0 ZF=0 CF=0
+Subtraction
+                  70:A=  2 B=  3 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  5 | OF=0 SF=0 ZF=0 CF=0
+                  75:A=  2 B=  3 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=1 ZF=0 CF=1
+And Operation
+                  80:A=  2 B=  3 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=1 ZF=0 CF=1
+                  85:A=  2 B=  3 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                  90:A=  2 B=  3 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+                  95:A=  2 B=  3 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 100:A=  2 B=  3 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+                 105:A=  2 B=  3 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=0
+Not A
+                 110:A=  2 B=  3 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=0
+                 115:A=  2 B=  3 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+Addition
+                 120:A=  3 B=  3 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+                 125:A=  3 B=  3 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  6 | OF=0 SF=0 ZF=0 CF=0
+Subtraction
+                 130:A=  3 B=  3 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  6 | OF=0 SF=0 ZF=0 CF=0
+                 135:A=  3 B=  3 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+And Operation
+                 140:A=  3 B=  3 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+                 145:A=  3 B=  3 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                 150:A=  3 B=  3 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 160:A=  3 B=  3 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+                 165:A=  3 B=  3 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Not A
+                 170:A=  3 B=  3 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+                 175:A=  3 B=  3 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=252 | OF=0 SF=0 ZF=0 CF=0
+Addition
+                 180:A=255 B=  2 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=252 | OF=0 SF=0 ZF=0 CF=0
+                 185:A=255 B=  2 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=1
+Subtraction
+                 190:A=255 B=  2 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=1
+                 195:A=255 B=  2 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+And Operation
+                 200:A=255 B=  2 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+                 205:A=255 B=  2 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                 210:A=255 B=  2 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+                 215:A=255 B=  2 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=255 | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 220:A=255 B=  2 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=255 | OF=0 SF=0 ZF=0 CF=0
+                 225:A=255 B=  2 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+Not A
+                 230:A=255 B=  2 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+                 235:A=255 B=  2 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Addition
+                 240:A=  2 B=255 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+                 245:A=  2 B=255 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=1
+Subtraction
+                 250:A=  2 B=255 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  1 | OF=0 SF=0 ZF=0 CF=1
+                 255:A=  2 B=255 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=1 ZF=0 CF=1
+And Operation
+                 260:A=  2 B=255 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=1 ZF=0 CF=1
+                 265:A=  2 B=255 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                 270:A=  2 B=255 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  2 | OF=0 SF=0 ZF=0 CF=0
+                 275:A=  2 B=255 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=255 | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 280:A=  2 B=255 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=255 | OF=0 SF=0 ZF=0 CF=0
+                 285:A=  2 B=255 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+Not A
+                 290:A=  2 B=255 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+Addition
+                 300:A=255 B=255 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=253 | OF=0 SF=0 ZF=0 CF=0
+                 305:A=255 B=255 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=254 | OF=0 SF=0 ZF=0 CF=1
+Subtraction
+                 310:A=255 B=255 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=254 | OF=0 SF=0 ZF=0 CF=1
+                 315:A=255 B=255 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+And Operation
+                 320:A=255 B=255 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+                 325:A=255 B=255 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=255 | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                 330:A=255 B=255 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=255 | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 340:A=255 B=255 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=255 | OF=0 SF=0 ZF=0 CF=0
+                 345:A=255 B=255 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Not A
+                 350:A=255 B=255 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Addition
+                 360:A=  3 B=  2 OPCODE= 2 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+                 365:A=  3 B=  2 OPCODE= 2 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Subtraction
+                 370:A=  3 B=  2 OPCODE= 3 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+And Operation
+                 380:A=  3 B=  2 OPCODE= 4 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                 390:A=  3 B=  2 OPCODE= 5 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 400:A=  3 B=  2 OPCODE= 6 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Not A
+                 410:A=  3 B=  2 OPCODE= 7 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Addition
+                 420:A=  2 B=  3 OPCODE= 2 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Subtraction
+                 430:A=  2 B=  3 OPCODE= 3 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+                 435:A=  2 B=  3 OPCODE= 3 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=1 ZF=0 CF=1
+And Operation
+                 440:A=  2 B=  3 OPCODE= 4 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=1 ZF=0 CF=1
+                 445:A=  2 B=  3 OPCODE= 4 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                 450:A=  2 B=  3 OPCODE= 5 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 460:A=  2 B=  3 OPCODE= 6 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Not A
+                 470:A=  2 B=  3 OPCODE= 7 OutputEnable=0 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+Addition
+                 480:A=  3 B=  3 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  z | OF=0 SF=0 ZF=0 CF=0
+                 485:A=  3 B=  3 OPCODE= 2 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  6 | OF=0 SF=0 ZF=0 CF=0
+Subtraction
+                 490:A=  3 B=  3 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  6 | OF=0 SF=0 ZF=0 CF=0
+                 495:A=  3 B=  3 OPCODE= 3 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+And Operation
+                 500:A=  3 B=  3 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+                 505:A=  3 B=  3 OPCODE= 4 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+Or Operation
+                 510:A=  3 B=  3 OPCODE= 5 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+Xor Operation
+                 520:A=  3 B=  3 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  3 | OF=0 SF=0 ZF=0 CF=0
+                 525:A=  3 B=  3 OPCODE= 6 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Not A
+                 530:A=  3 B=  3 OPCODE= 7 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Addition
+                 540:A=255 B=  2 OPCODE= 2 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Subtraction
+                 550:A=255 B=  2 OPCODE= 3 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+And Operation
+                 560:A=255 B=  2 OPCODE= 4 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Or Operation
+                 570:A=255 B=  2 OPCODE= 5 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Xor Operation
+                 580:A=255 B=  2 OPCODE= 6 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Not A
+                 590:A=255 B=  2 OPCODE= 7 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Addition
+                 600:A=  2 B=255 OPCODE= 2 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Subtraction
+                 610:A=  2 B=255 OPCODE= 3 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+And Operation
+                 620:A=  2 B=255 OPCODE= 4 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Or Operation
+                 630:A=  2 B=255 OPCODE= 5 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Xor Operation
+                 640:A=  2 B=255 OPCODE= 6 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Not A
+                 650:A=  2 B=255 OPCODE= 7 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Addition
+                 660:A=255 B=255 OPCODE= 2 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Subtraction
+                 670:A=255 B=255 OPCODE= 3 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+And Operation
+                 680:A=255 B=255 OPCODE= 4 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Or Operation
+                 690:A=255 B=255 OPCODE= 5 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Xor Operation
+                 700:A=255 B=255 OPCODE= 6 OutputEnable=1 ALU_ENABLE=0 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+Not A
+                 710:A=255 B=255 OPCODE= 7 OutputEnable=1 ALU_ENABLE=1 | ALU_OUT=  0 | OF=0 SF=0 ZF=1 CF=0
+$finish called from file "alu_tb.v", line 67.
+$finish at simulation time                 7200
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 720000 ps
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Wed Apr 21 21:52:20 2021

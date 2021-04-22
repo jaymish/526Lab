@@ -1,0 +1,1 @@
+vcs -debug -full64 -sverilog alu.sv alu_tb1.v +define+SIGNED_ALU
