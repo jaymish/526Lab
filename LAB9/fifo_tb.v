@@ -1,14 +1,14 @@
 /**************************************************************************************************
 ***												***
-*** EE 526 L Experiment #8					Jaymish patel, Spring, 2021	***
+*** EE 526 L Experiment #9					Jaymish patel, Spring, 2021	***
 ***												***
-*** Experiment #8  ALU modeling									***
+*** Experiment #9  Parameterized Synchronous FIFO									***
 ***												***
 ***************************************************************************************************
-***  Filename: alu_tb.v				     	     Created by Jaymish patel, 4/21/21 	***
+***  Filename: fifo_tb.v				     	     Created by Jaymish patel, 5/1/21 	***
 ***    --- revision history, if any, goes here ---						***
 ***************************************************************************************************
-*** This module is the test bench for experiment #8						***
+*** This module is the test bench for experiment #9						***
 ***												***
 **************************************************************************************************/
 `timescale 1 ns / 1 ns
@@ -19,12 +19,12 @@ module alu_tb();
 	//declaring the regs and wires used
 	
 	reg rd_en, wr_en, rst_n, clk=1'b0;
-	wire [4:0] count;
+	wire [5:0] count;
 	reg  [7:0] data_in=8'd1;
 	wire empty, almost_empty, full, almost_full, valid, overflow_fifo, underflow;
 	wire [7:0] data_out;
 	//instances of alu module
-	FIFO_final #(.depth(16), .almost_size(3), .count_size(4)) fifo1(data_out, empty, almost_empty, full, almost_full, valid, overflow_fifo, underflow, count, data_in, clk, rd_en, wr_en, rst_n);
+	FIFO_final #(.depth(32), .width(8), .almost_size(2), .count_size(5)) fifo1(data_out, empty, almost_empty, full, almost_full, valid, overflow_fifo, underflow, count, data_in, clk, rd_en, wr_en, rst_n);
 
 	initial begin
 //$monitorb - displays the values of all objects in its list whenever any one of them changes.
@@ -39,12 +39,12 @@ module alu_tb();
 	
 	wr_en=0;rd_en=0;
 	#20 wr_en=1;
-	#340 wr_en=0;
+	#660 wr_en=0;
 	#20 rd_en=1;
-	#340 wr_en=0;rd_en=0;
+	#660 wr_en=0;rd_en=0;
 	
 	#20 wr_en=1;
-	#180 wr_en=0;
+	#660 wr_en=0;
 	#20 rst_n=1;
 	#20 rd_en=1;rst_n=0;
 	#40 wr_en=0;rd_en=0;
@@ -60,6 +60,12 @@ module alu_tb();
 	#20 rd_en=1;rst_n=0;
 	#60 rst_n=1;
 	#40 wr_en=0;rd_en=0;
+	
+	#20 wr_en=1;rst_n=0;
+	#660 wr_en=0; rd_en=1;rst_n=0;
+	#60 wr_en=1;rd_en=0;
+	#20 rd_en=1;wr_en=0;
+	#660 wr_en=0;rd_en=0;
 	//#100 wr_en=0;rd_en=1;
 	
 	

@@ -1,7 +1,7 @@
 0 
 31
 +cli+4
-+define+NORMAL
++define+FWFT
 +itf+/opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/vcsdp.tab
 +memcbk
 +vcsd
@@ -33,7 +33,7 @@ fifo.sv
 fifo_tb.v
 38
 sysc_uni_pwd=/home/users9/jp581081/526LSP21/LAB9
-XDG_SESSION_ID=7684
+XDG_SESSION_ID=8502
 XDG_RUNTIME_DIR=/run/user/1338419589
 XDG_DATA_DIRS=/home/users9/jp581081/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
 VMR_MODE_FLAG=64
@@ -50,8 +50,8 @@ SYNOPSYS_LC_ROOT=/opt/synopsys/lc/O-2018.06-SP1
 SYNOPSYS=/opt/synopsys
 STROOT=/opt/synopsys/icc/O-2018.06-SP1
 SSH_TTY=/dev/pts/0
-SSH_CONNECTION=172.24.213.253 56314 130.166.68.147 22
-SSH_CLIENT=172.24.213.253 56314 22
+SSH_CONNECTION=172.24.213.253 65151 130.166.68.147 22
+SSH_CLIENT=172.24.213.253 65151 22
 SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
 SELINUX_USE_CURRENT_RANGE=
 SELINUX_ROLE_REQUESTED=
@@ -72,8 +72,8 @@ CDSDOC_PROJECT=/opt/cadence/cdsdoc_list/
 A__z="*SHLVL
 0
 3
-1619595011 fifo_tb.v
-1619594701 fifo.sv
+1619918119 fifo_tb.v
+1619919848 fifo.sv
 1534397779 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/vcsdp.tab
 5
 0 
@@ -81,4 +81,4 @@ A__z="*SHLVL
 1534400011 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/liberrorinf.so
 1534399858 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/libsnpsmalloc.so
 1534401039 /opt/synopsys/vcs-mx/N-2017.12-SP2-2/linux64/lib/libvfs.so
-1619595015 simv.daidir
+1619920343 simv.daidir
