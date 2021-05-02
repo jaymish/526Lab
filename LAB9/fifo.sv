@@ -40,7 +40,7 @@ begin
    begin
       data_out <= 0;
 	  for(temp=0;temp<depth;temp=temp+1)
-		memory[temp]=8'b0;
+		memory[temp]=0;
    end
    else
    begin
