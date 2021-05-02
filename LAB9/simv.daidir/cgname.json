@@ -1,20 +1,20 @@
 {
+    "alu_tb": [
+        "alu_tb",
+        "EiRPr",
+        "module",
+        2
+    ],
     "std": [
         "std",
         "reYIK",
         "module",
-        3
+        1
     ],
     "...MASTER...": [
         "SIM",
         "amcQw",
         "module",
-        2
-    ],
-    "alu_tb": [
-        "alu_tb",
-        "EiRPr",
-        "module",
-        1
+        3
     ]
 }
